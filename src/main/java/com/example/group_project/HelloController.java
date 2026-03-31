@@ -11,5 +11,7 @@ public class HelloController {
     protected void onHelloButtonClick() {
         welcomeText.setText("Welcome to JavaFX Application Group Project!");
         System.out.println("Github Update!");
+        System.out.println("Let's See The Result!");
+
     }
 }
