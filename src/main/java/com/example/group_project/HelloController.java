@@ -9,7 +9,7 @@ public class HelloController {
 
     @FXML
     protected void onHelloButtonClick() {
-        welcomeText.setText("Welcome to JavaFX Application Group Project -hi ! ok");
+        welcomeText.setText("Welcome to JavaFX Application Group Project oop! ok");
         System.out.println("Github Update!");
         System.out.println("great");
     }
