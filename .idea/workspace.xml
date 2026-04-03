@@ -5,9 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfee342f-f61f-4326-956e-61f0a70428ea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/AddReviewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/AddReview.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/AssignedApplicationsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/DeleteReviewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/SubmitRecommendationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/UpdateReviewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/VerifyEmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/AssignedApplications.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/DeleteReview.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/SubmitRecommendation.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/UpdateReview.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/VerifyEmployee.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/group_project/AddReviewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/AddReviewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/AddReview.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/AddReview.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/ViewApplications.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/ViewApplications.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
