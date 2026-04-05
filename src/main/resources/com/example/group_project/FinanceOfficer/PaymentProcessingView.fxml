@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<?import javafx.scene.control.TextField?>
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.group_project.FinanceOfficer.Controller.PaymentProcessingController">
+   <children>
+      <Label layoutX="176.0" layoutY="69.0" prefHeight="63.0" prefWidth="216.0" text="       PAYMENT PROCESSING" />
+      <Label layoutX="35.0" layoutY="147.0" prefHeight="18.0" prefWidth="83.0" text="ApplicationID :" />
+      <Button layoutX="186.0" layoutY="187.0" mnemonicParsing="false" onAction="#laodApplicationOnActionButton" text="Load Application" />
+      <Label layoutX="35.0" layoutY="248.0" prefHeight="18.0" prefWidth="99.0" text="Amount to Pay :" />
+      <Label layoutX="35.0" layoutY="282.0" text="Date :" />
+      <Button layoutX="340.0" layoutY="245.0" mnemonicParsing="false" onAction="#processPaymentOnActionButton" text="Process Payment" />
+      <Label layoutX="186.0" layoutY="332.0" prefHeight="42.0" prefWidth="186.0" text=" Payment processes successfully" />
+      <TextField fx:id="applicationIdTextField" layoutX="118.0" layoutY="144.0" />
+      <TextField fx:id="amountToPayTextField" layoutX="134.0" layoutY="245.0" />
+      <DatePicker fx:id="dateDatePicker" layoutX="78.0" layoutY="278.0" />
+   </children>
+</AnchorPane>

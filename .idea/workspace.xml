@@ -4,11 +4,51 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfee342f-f61f-4326-956e-61f0a70428ea" name="Changes" comment="hhhhhhh" />
+    <list default="true" id="bfee342f-f61f-4326-956e-61f0a70428ea" name="Changes" comment="hhhhhhh">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/FinanceOfficer/Controller/AddFundController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/FinanceOfficer/Controller/ContributionUpdateController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/FinanceOfficer/Controller/DeleteFundrecordController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/FinanceOfficer/Controller/PaymentProcessingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/FinanceOfficer/Controller/UpdateFundInformationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/FinanceOfficer/Controller/ViewFundListController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/FinanceOfficer/Controller/ViewPaymentrecordsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/TrainingOperator/Controller/AddNewTrainingSessionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/TrainingOperator/Controller/DeleteTrainingSessionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/TrainingOperator/Controller/RegisterTrainingSessionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/TrainingOperator/Controller/SendTrainingNotificationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/TrainingOperator/Controller/TrainingSessionListController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/TrainingOperator/Controller/UpdateAttendanceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/TrainingOperator/Controller/UpdateTraningController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/TrainingOperator/Controller/ViewRegisteredEmployeeListController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/FinanceOfficer/AddFundView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/FinanceOfficer/ContributionUpdateView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/FinanceOfficer/DeleteFundrecordView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/FinanceOfficer/PaymentProcessingView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/FinanceOfficer/UpdateFundInformationView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/FinanceOfficer/ViewFundListView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/FinanceOfficer/ViewPaymentrecordsView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/TrainingOperator/AddNewTrainingSessionView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/TrainingOperator/DeleteTrainingSessionView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/TrainingOperator/RegisterTrainingSessionView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/TrainingOperator/SendTrainingNotificationView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/TrainingOperator/TrainingSessionListView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/TrainingOperator/UpdateAttendanceView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/TrainingOperator/UpdateTraningView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/TrainingOperator/ViewRegisteredEmployeeListView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/group_project/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/HelloController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -49,28 +89,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;oboni&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/oop project/Group-Project&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.HelloApplication.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "oboni",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/oop project/Group-Project/src/main/java/com/example/group_project",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\oop project\Group-Project\src\main\java\com\example\group_project" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.group_project.FinanceOfficer.Controller" />
+      <recent name="com.example.group_project.TrainingOperator.Controller" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -89,6 +138,7 @@
       <workItem from="1775035467339" duration="395000" />
       <workItem from="1775035897595" duration="836000" />
       <workItem from="1775036813921" duration="238000" />
+      <workItem from="1775368953003" duration="13775000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -130,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775036999653</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="hhhhhhh">
+      <option name="closed" value="true" />
+      <created>1775369002042</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1775369002042</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

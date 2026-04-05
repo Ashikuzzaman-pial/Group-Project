@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.group_project.FinanceOfficer.Controller.DeleteFundrecordController">
+   <children>
+      <Label layoutX="215.0" layoutY="53.0" prefHeight="56.0" prefWidth="172.0" text="   DELETE FUNDRECORD" />
+      <Label layoutX="117.0" layoutY="159.0" prefHeight="18.0" prefWidth="89.0" text="FundId :" />
+      <ComboBox fx:id="fundIdComboBox" layoutX="188.0" layoutY="156.0" prefWidth="150.0" />
+      <Button layoutX="237.0" layoutY="220.0" mnemonicParsing="false" onAction="#deleteOnActionButton" text="Delete" />
+      <Label layoutX="164.0" layoutY="281.0" prefHeight="56.0" prefWidth="206.0" text="      Delete Successfully " />
+   </children>
+</AnchorPane>
