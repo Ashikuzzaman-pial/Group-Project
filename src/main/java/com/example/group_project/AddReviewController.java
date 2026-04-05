@@ -7,12 +7,13 @@ import javafx.scene.control.TextField;
 
 public class AddReviewController
 {
+
     @javafx.fxml.FXML
-    private ComboBox DesignCB;
+    private TextArea remarksTA;
     @javafx.fxml.FXML
-    private TextField ApplicationIDTF;
+    private ComboBox designCB;
     @javafx.fxml.FXML
-    private TextArea RemarksTA;
+    private TextField applicationIDTF;
 
     @javafx.fxml.FXML
     public void initialize() {

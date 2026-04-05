@@ -7,7 +7,7 @@
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.group_project.President.Controller.ViewApplicationsController">
    <children>
-      <TableView fx:id="ViewApplicationTV" layoutX="93.0" layoutY="100.0" prefHeight="200.0" prefWidth="415.0">
+      <TableView fx:id="TableViewTV" layoutX="93.0" layoutY="100.0" prefHeight="200.0" prefWidth="415.0">
         <columns>
           <TableColumn fx:id="ApplicationIdTC" prefWidth="109.0" text="Application ID" />
           <TableColumn fx:id="EmployeeIDTC" prefWidth="98.0" text="Employee ID" />
@@ -15,6 +15,6 @@
             <TableColumn fx:id="StatusTC" prefWidth="107.0" text="Status" />
         </columns>
       </TableView>
-      <Button layoutX="244.0" layoutY="325.0" mnemonicParsing="false" onAction="#ViewDetailsButtonOnAction" prefHeight="37.0" prefWidth="111.0" text="View Details" />
+      <Button fx:id="ViewDetailsButtonOA" layoutX="244.0" layoutY="325.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="111.0" text="View Details" />
    </children>
 </AnchorPane>
