@@ -1,21 +1,21 @@
-package com.example.group_project;
+package com.example.group_project.President.Controller;
 
 import javafx.event.ActionEvent;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 
-public class ApproveApplicationController
+public class RejectApplicationController
 {
     @javafx.fxml.FXML
-    private TextField ApplicationIdTextFIeld;
+    private TextArea RejectionReasonTA;
     @javafx.fxml.FXML
-    private TextArea RemarksTextArea;
+    private TextField ApplicationIdTF;
 
     @javafx.fxml.FXML
     public void initialize() {
     }
 
     @javafx.fxml.FXML
-    public void ApproveApplicationButtonOnAction(ActionEvent actionEvent) {
+    public void RejectButtonOnAction(ActionEvent actionEvent) {
     }
 }
