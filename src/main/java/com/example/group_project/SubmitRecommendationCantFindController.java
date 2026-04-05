@@ -3,7 +3,7 @@ package com.example.group_project;
 import javafx.event.ActionEvent;
 import javafx.scene.control.*;
 
-public class SubmitRecommendationController
+public class SubmitRecommendationCantFindController
 {
     @javafx.fxml.FXML
     private TextArea remarksTA;
