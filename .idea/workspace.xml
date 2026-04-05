@@ -4,21 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfee342f-f61f-4326-956e-61f0a70428ea" name="Changes" comment="">
+    <list default="true" id="bfee342f-f61f-4326-956e-61f0a70428ea" name="Changes" comment="changed dir struc">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/group_project/AddProgramController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/President/Controller/AddProgramController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/group_project/AddReviewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/President/Controller/AddReviewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/group_project/ApproveApplicationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/President/Controller/ApproveApplicationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/group_project/RejectApplicationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/President/Controller/RejectApplicationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/group_project/UpdateProgramController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/President/Controller/UpdateProgramController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/group_project/ViewApplicationsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/President/Controller/ViewApplicationsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/AddProgram.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/President/AddProgram.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/AddReview.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/President/AddReview.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/ApproveApplication.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/President/ApproveApplication.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/RejectApplication.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/President/RejectApplication.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/UpdateProgram.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/President/UpdateProgram.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/ViewApplications.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/President/ViewApplications.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/group_project/President/Controller/AddReviewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/AddReviewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/President/AddReview.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/AddReview.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,9 +54,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\IdeaProjects\Group_Project\src\main\resources\com\example\group_project" />
       <recent name="C:\Users\user\IdeaProjects\Group_Project\src\main\resources\com\example\group_project\President" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.group_project" />
       <recent name="com.example.group_project.President.Controller" />
     </key>
   </component>
@@ -79,6 +70,19 @@
       <option name="presentableId" value="Default" />
       <updated>1774700270962</updated>
     </task>
+    <task id="LOCAL-00001" summary="changed dir struc">
+      <option name="closed" value="true" />
+      <created>1775375506086</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1775375506086</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="changed dir struc" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed dir struc" />
   </component>
 </project>

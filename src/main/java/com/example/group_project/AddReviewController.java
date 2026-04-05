@@ -1,4 +1,4 @@
-package com.example.group_project.President.Controller;
+package com.example.group_project;
 
 import javafx.event.ActionEvent;
 import javafx.scene.control.ComboBox;
