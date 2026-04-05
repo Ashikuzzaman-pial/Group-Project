@@ -8,7 +8,7 @@
 <?import javafx.scene.text.Font?>
 
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.group_project.ApproveApplicationController">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.group_project.President.Controller.ApproveApplicationController">
    <children>
       <Label layoutX="71.0" layoutY="62.0" prefHeight="33.0" prefWidth="85.0" text="Application ID:">
          <font>

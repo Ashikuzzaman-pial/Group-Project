@@ -1,4 +1,4 @@
-package com.example.group_project;
+package com.example.group_project.President.Controller;
 
 public class AddProgramController
 {
