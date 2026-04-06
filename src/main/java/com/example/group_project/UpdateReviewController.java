@@ -11,6 +11,8 @@ public class UpdateReviewController
     private TextField reviewIdTF;
     @javafx.fxml.FXML
     private TextArea remarksTA;
+    @javafx.fxml.FXML
+    private Label updateReviewLabel;
 
     @javafx.fxml.FXML
     public void initialize() {

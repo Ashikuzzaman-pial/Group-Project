@@ -1,12 +1,15 @@
 package com.example.group_project;
 
 import javafx.event.ActionEvent;
+import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 
 public class DeleteReviewController
 {
     @javafx.fxml.FXML
     private TextField removeIdTF;
+    @javafx.fxml.FXML
+    private Label deleteReviewLabel;
 
     @javafx.fxml.FXML
     public void initialize() {

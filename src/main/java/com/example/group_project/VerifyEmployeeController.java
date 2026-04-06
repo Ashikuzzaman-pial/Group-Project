@@ -5,16 +5,25 @@ import javafx.scene.control.*;
 
 public class VerifyEmployeeController
 {
+
     @javafx.fxml.FXML
-    private TextField employeeIdTF;
+    private Label currentStatusLabel;
     @javafx.fxml.FXML
-    private Label statusLabel;
+    private Label verifyEmployeeLabel;
+    @javafx.fxml.FXML
+    private Label employeeIDLabel;
+    @javafx.fxml.FXML
+    private Label nameLabel;
+    @javafx.fxml.FXML
+    private Label programLabel;
+    @javafx.fxml.FXML
+    private ComboBox selectEmployeeCB;
 
     @javafx.fxml.FXML
     public void initialize() {
     }
 
     @javafx.fxml.FXML
-    public void VerifyButtonOA(ActionEvent actionEvent) {
+    public void verifyButtonOA(ActionEvent actionEvent) {
     }
 }

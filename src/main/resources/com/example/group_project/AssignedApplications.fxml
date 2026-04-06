@@ -6,10 +6,11 @@
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.group_project.AssignedApplicationsController">
+<AnchorPane prefHeight="435.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.group_project.AssignedApplicationsController">
    <children>
-      <TableView fx:id="tableViewTV" layoutX="68.0" layoutY="34.0" prefHeight="200.0" prefWidth="465.0">
+      <TableView fx:id="tableViewTV" layoutX="68.0" layoutY="65.0" prefHeight="200.0" prefWidth="465.0">
         <columns>
           <TableColumn fx:id="applicationIdTC" prefWidth="111.0" text="Application Id" />
           <TableColumn fx:id="employeeIDTC" prefWidth="114.0" text="Employee ID" />
@@ -17,8 +18,13 @@
             <TableColumn fx:id="statusTC" prefWidth="122.0" text="Status" />
         </columns>
       </TableView>
-      <ComboBox fx:id="filterCB" layoutX="226.0" layoutY="254.0" prefWidth="150.0" />
-      <Label layoutX="187.0" layoutY="258.0" text="Filter:" />
-      <Button layoutX="232.0" layoutY="307.0" mnemonicParsing="false" onAction="#ViewDetailsButtonOA" prefHeight="50.0" prefWidth="139.0" text="View Details" />
+      <ComboBox fx:id="filterCB" layoutX="226.0" layoutY="285.0" prefWidth="150.0" />
+      <Label layoutX="175.0" layoutY="289.0" text="Filter:" />
+      <Button layoutX="232.0" layoutY="338.0" mnemonicParsing="false" onAction="#ViewDetailsButtonOA" prefHeight="50.0" prefWidth="139.0" text="View Details" />
+      <Label fx:id="assignedApplicationLabel" layoutX="212.0" layoutY="20.0" text="Assigned Application">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>
