@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.group_project.FactoryRepresentative.DeleteFactoryController">
+   <children>
+      <Label fx:id="deleteFactoryLabel" layoutX="239.0" layoutY="33.0" text="Delete Factory">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tableViewTV" layoutX="88.0" layoutY="84.0" prefHeight="200.0" prefWidth="426.0">
+        <columns>
+          <TableColumn fx:id="nameTC" prefWidth="131.0" text="Name" />
+          <TableColumn fx:id="addressTC" prefWidth="158.0" text="Address" />
+            <TableColumn fx:id="contactTC" prefWidth="136.0" text="Contact" />
+        </columns>
+      </TableView>
+      <Button layoutX="259.0" layoutY="309.0" mnemonicParsing="false" onAction="#deleteButtonOA" prefHeight="34.0" prefWidth="83.0" text="Delete" />
+   </children>
+</AnchorPane>
