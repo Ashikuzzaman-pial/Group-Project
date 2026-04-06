@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.group_project.GeneralMember.Controller.ApplicationStatusController">
+   <children>
+      <Label layoutX="246.0" layoutY="14.0" text="My Application">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <TableView fx:id="ApplicationTV" layoutX="85.0" layoutY="73.0" prefHeight="165.0" prefWidth="429.0">
+        <columns>
+          <TableColumn fx:id="ApplicationIdTC" prefWidth="141.33334350585938" text="Application ID" />
+          <TableColumn fx:id="SubmissionDateTC" prefWidth="162.6666259765625" text="Submisson Date" />
+            <TableColumn fx:id="StatusTC" prefWidth="124.0" text="Status" />
+        </columns>
+      </TableView>
+      <Button layoutX="264.0" layoutY="268.0" mnemonicParsing="false" onAction="#StatusButtonOA" prefHeight="39.0" prefWidth="71.0" text="Status" />
+   </children>
+</AnchorPane>
