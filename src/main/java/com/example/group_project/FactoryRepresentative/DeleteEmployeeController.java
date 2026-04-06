@@ -14,11 +14,11 @@ public class DeleteEmployeeController
     @javafx.fxml.FXML
     private TableView tableViewTV;
     @javafx.fxml.FXML
-    private TableColumn contact;
-    @javafx.fxml.FXML
     private Label deleteEmployeeLabel;
     @javafx.fxml.FXML
     private TableColumn idTC;
+    @javafx.fxml.FXML
+    private TableColumn contactTC;
 
     @javafx.fxml.FXML
     public void initialize() {

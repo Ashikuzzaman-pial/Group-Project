@@ -7,7 +7,6 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="376.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.group_project.FactoryRepresentative.DeleteEmployeeController">
    <children>
       <Label fx:id="deleteEmployeeLabel" layoutX="229.0" layoutY="27.0" text="Delete Employee">
@@ -19,7 +18,7 @@
         <columns>
           <TableColumn fx:id="idTC" prefWidth="111.0" text="ID" />
           <TableColumn fx:id="nameTC" prefWidth="113.0" text="Name" />
-            <TableColumn fx:id="contact" prefWidth="120.0" text="Contact" />
+            <TableColumn fx:id="contactTC" prefWidth="120.0" text="Contact" />
             <TableColumn fx:id="designationTC" prefWidth="116.0" text="Designation" />
         </columns>
       </TableView>
