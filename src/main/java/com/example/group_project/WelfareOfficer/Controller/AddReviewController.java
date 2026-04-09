@@ -28,4 +28,8 @@ public class AddReviewController
     @javafx.fxml.FXML
     public void SubmitReviewButtonOA(ActionEvent actionEvent) {
     }
+
+    @javafx.fxml.FXML
+    public void backButtonOA(ActionEvent actionEvent) {
+    }
 }
