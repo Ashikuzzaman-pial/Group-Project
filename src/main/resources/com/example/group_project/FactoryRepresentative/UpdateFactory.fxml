@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="420.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.group_project.FactoryRepresentative.UpdateFactoryController">
+<AnchorPane fx:id="mainPane" prefHeight="420.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.group_project.FactoryRepresentative.UpdateFactoryController">
    <children>
       <Label fx:id="updateFactoryProfileLabel" layoutX="205.0" layoutY="22.0" text="Update Factory Profile">
          <font>

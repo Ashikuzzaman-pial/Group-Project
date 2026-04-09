@@ -19,6 +19,8 @@ public class ReviewSummaryController
     private Label ReviewSummaryLabel;
     @javafx.fxml.FXML
     private DatePicker fromDP;
+    @javafx.fxml.FXML
+    private AnchorPane mainPane;
 
     @javafx.fxml.FXML
     public void initialize() {

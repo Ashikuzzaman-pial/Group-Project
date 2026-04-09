@@ -25,6 +25,8 @@ public class UpdateEmployeeController
     private TextField contactTF;
     @javafx.fxml.FXML
     private TextField designationTF;
+    @javafx.fxml.FXML
+    private AnchorPane mainPane;
 
     @javafx.fxml.FXML
     public void initialize() {

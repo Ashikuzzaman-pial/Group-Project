@@ -19,6 +19,8 @@ public class AssignedApplicationsController
     private TableColumn employeeIDTC;
     @javafx.fxml.FXML
     private Label assignedApplicationLabel;
+    @javafx.fxml.FXML
+    private AnchorPane mainPane;
 
     @javafx.fxml.FXML
     public void initialize() {

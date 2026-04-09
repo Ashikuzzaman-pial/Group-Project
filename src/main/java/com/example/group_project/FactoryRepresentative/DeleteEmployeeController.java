@@ -19,6 +19,8 @@ public class DeleteEmployeeController
     private TableColumn idTC;
     @javafx.fxml.FXML
     private TableColumn contactTC;
+    @javafx.fxml.FXML
+    private AnchorPane mainPane;
 
     @javafx.fxml.FXML
     public void initialize() {
