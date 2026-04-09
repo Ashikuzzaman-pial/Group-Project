@@ -11,7 +11,7 @@
       <Label layoutX="172.0" layoutY="181.0" text="Remove Id:" />
       <TextField fx:id="removeIdTF" layoutX="242.0" layoutY="177.0" />
       <Button layoutX="275.0" layoutY="229.0" mnemonicParsing="false" onAction="#DeleteButtonOA" text="Delete" />
-      <Label fx:id="deleteReviewLabel" layoutX="256.0" layoutY="65.0" text="Delete Review">
+      <Label fx:id="deleteReviewLabel" layoutX="256.0" layoutY="65.0" text="Delete com.example.group_project.Review">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>

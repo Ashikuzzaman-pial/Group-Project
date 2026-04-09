@@ -1,3 +1,5 @@
+package com.example.group_project;
+
 public class Factory {
     private int id;
     private String name;

@@ -19,13 +19,13 @@
          </font>
       </Label>
       <Button layoutX="21.0" layoutY="56.0" mnemonicParsing="false" onAction="#assignedApplicationsButtonOA" prefHeight="25.0" prefWidth="154.0" text="Assigned Applications" />
-      <Button layoutX="21.0" layoutY="98.0" mnemonicParsing="false" onAction="#addReviewButtonOA" prefHeight="25.0" prefWidth="154.0" text="Add Review" />
-      <Button layoutX="19.0" layoutY="141.0" mnemonicParsing="false" onAction="#updateReviewButtonOA" prefHeight="25.0" prefWidth="154.0" text="Update Review" />
-      <Button layoutX="20.0" layoutY="184.0" mnemonicParsing="false" onAction="#deleteReviewButtonOA" prefHeight="25.0" prefWidth="154.0" text="Delete Review" />
-      <Button layoutX="19.0" layoutY="227.0" mnemonicParsing="false" onAction="#verifyEmployeeButtonOA" prefHeight="25.0" prefWidth="154.0" text="Verify Employee" />
+      <Button layoutX="21.0" layoutY="98.0" mnemonicParsing="false" onAction="#addReviewButtonOA" prefHeight="25.0" prefWidth="154.0" text="Add com.example.group_project.Review" />
+      <Button layoutX="19.0" layoutY="141.0" mnemonicParsing="false" onAction="#updateReviewButtonOA" prefHeight="25.0" prefWidth="154.0" text="Update com.example.group_project.Review" />
+      <Button layoutX="20.0" layoutY="184.0" mnemonicParsing="false" onAction="#deleteReviewButtonOA" prefHeight="25.0" prefWidth="154.0" text="Delete com.example.group_project.Review" />
+      <Button layoutX="19.0" layoutY="227.0" mnemonicParsing="false" onAction="#verifyEmployeeButtonOA" prefHeight="25.0" prefWidth="154.0" text="Verify com.example.group_project.Employee" />
       <Button layoutX="17.0" layoutY="272.0" mnemonicParsing="false" onAction="#updateApplicationStatusButtonOA" text="Update Application Status" />
-      <Button layoutX="17.0" layoutY="314.0" mnemonicParsing="false" onAction="#updateStatusButtonOA" prefHeight="25.0" prefWidth="154.0" text="Review Summary" />
-      <Button layoutX="16.0" layoutY="355.0" mnemonicParsing="false" onAction="#sendNoteButtonOA" prefHeight="15.0" prefWidth="154.0" text="Send Note" />
+      <Button layoutX="17.0" layoutY="314.0" mnemonicParsing="false" onAction="#updateStatusButtonOA" prefHeight="25.0" prefWidth="154.0" text="com.example.group_project.Review Summary" />
+      <Button layoutX="16.0" layoutY="355.0" mnemonicParsing="false" onAction="#sendNoteButtonOA" prefHeight="15.0" prefWidth="154.0" text="Send com.example.group_project.Note" />
       <Button layoutX="553.0" layoutY="21.0" mnemonicParsing="false" onAction="#logoutButtonOA" text="Logout" />
       <Line endX="146.0" layoutX="306.0" layoutY="47.0" startX="-122.0" />
    </children>

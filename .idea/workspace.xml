@@ -4,7 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78616f88-9239-419d-8f72-ee8daf545009" name="Changes" comment="" />
+    <list default="true" id="78616f88-9239-419d-8f72-ee8daf545009" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/Factory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/Note.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/Review.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WelfareApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/WelfareApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/group_project/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/FactoryRepresentative/DeleteEmployee.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/FactoryRepresentative/DeleteEmployee.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/FactoryRepresentative/DeleteFactory.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/FactoryRepresentative/DeleteFactory.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/FactoryRepresentative/EmployeeList.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/FactoryRepresentative/EmployeeList.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/FactoryRepresentative/FactoryRepresenatativeDashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/FactoryRepresentative/FactoryRepresenatativeDashboard.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/FactoryRepresentative/RegisterEmployee.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/FactoryRepresentative/RegisterEmployee.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/FactoryRepresentative/RegisterFactory.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/FactoryRepresentative/RegisterFactory.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/FactoryRepresentative/UpdateEmployee.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/FactoryRepresentative/UpdateEmployee.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/FactoryRepresentative/UpdateFactory.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/FactoryRepresentative/UpdateFactory.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/FactoryRepresentative/WelfareIssue.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/FactoryRepresentative/WelfareIssue.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/President/ApplicationFeedback.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/President/ApplicationFeedback.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/President/ViewApplications.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/President/ViewApplications.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/WelfareOfficer/AddReview.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/WelfareOfficer/AddReview.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/WelfareOfficer/AssignedApplications.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/WelfareOfficer/AssignedApplications.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/WelfareOfficer/DeleteReview.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/WelfareOfficer/DeleteReview.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/WelfareOfficer/ReviewSummary.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/WelfareOfficer/ReviewSummary.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/WelfareOfficer/SendNote.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/WelfareOfficer/SendNote.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/WelfareOfficer/UpdateApplicationStatus.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/WelfareOfficer/UpdateApplicationStatus.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/WelfareOfficer/UpdateReview.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/WelfareOfficer/UpdateReview.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/WelfareOfficer/VerifyEmployee.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/WelfareOfficer/VerifyEmployee.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/WelfareOfficer/WelfareOfficerDashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/WelfareOfficer/WelfareOfficerDashboard.fxml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,10 +49,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="3C76wgczKe9IZFvYM205oKGsYLB" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -35,10 +64,17 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.HelloApplication.executor": "Run",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.group_project" />
+    </key>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="78616f88-9239-419d-8f72-ee8daf545009" name="Changes" comment="" />

@@ -1,3 +1,5 @@
+package com.example.group_project;
+
 public class Note {
     private int id;
     private WelfareApplication application;

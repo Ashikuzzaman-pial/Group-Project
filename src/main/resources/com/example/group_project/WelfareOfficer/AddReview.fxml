@@ -16,8 +16,8 @@
       <Label layoutX="207.0" layoutY="109.0" text="Design:" />
       <TextArea fx:id="remarksTA" layoutX="112.0" layoutY="152.0" prefHeight="200.0" prefWidth="390.0" />
       <Label layoutX="46.0" layoutY="152.0" text="Remarks:" />
-      <Button layoutX="273.0" layoutY="375.0" mnemonicParsing="false" onAction="#SubmitReviewButtonOA" text="Submit Review" />
-      <Label fx:id="addReviewLabel" layoutX="250.0" layoutY="14.0" text="Add Review">
+      <Button layoutX="273.0" layoutY="375.0" mnemonicParsing="false" onAction="#SubmitReviewButtonOA" text="Submit com.example.group_project.Review" />
+      <Label fx:id="addReviewLabel" layoutX="250.0" layoutY="14.0" text="Add com.example.group_project.Review">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>

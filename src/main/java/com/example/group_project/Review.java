@@ -1,3 +1,5 @@
+package com.example.group_project;
+
 public class Review {
     private int id;
     private User officer;

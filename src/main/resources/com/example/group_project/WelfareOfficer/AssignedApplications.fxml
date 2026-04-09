@@ -13,7 +13,7 @@
       <TableView fx:id="tableViewTV" layoutX="68.0" layoutY="65.0" prefHeight="200.0" prefWidth="465.0">
         <columns>
           <TableColumn fx:id="applicationIdTC" prefWidth="111.0" text="Application Id" />
-          <TableColumn fx:id="employeeIDTC" prefWidth="114.0" text="Employee ID" />
+          <TableColumn fx:id="employeeIDTC" prefWidth="114.0" text="com.example.group_project.Employee ID" />
             <TableColumn fx:id="caseTypeTC" prefWidth="117.0" text="Case Type" />
             <TableColumn fx:id="statusTC" prefWidth="122.0" text="Status" />
         </columns>

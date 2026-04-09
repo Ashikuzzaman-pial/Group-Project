@@ -11,7 +11,7 @@
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.group_project.FactoryRepresentative.UpdateEmployeeController">
    <children>
-      <Label fx:id="updateEmployeeLabel" layoutX="226.0" layoutY="24.0" text="Update Employee">
+      <Label fx:id="updateEmployeeLabel" layoutX="226.0" layoutY="24.0" text="Update com.example.group_project.Employee">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
@@ -28,7 +28,7 @@
       <Label layoutX="60.0" layoutY="273.0" text="Name:" />
       <Label layoutX="60.0" layoutY="304.0" text="Contact:" />
       <Label layoutX="341.0" layoutY="273.0" text="Desiganation:" />
-      <Label layoutX="341.0" layoutY="304.0" text="Factory:" />
+      <Label layoutX="341.0" layoutY="304.0" text="com.example.group_project.Factory:" />
       <Button layoutX="253.0" layoutY="342.0" mnemonicParsing="false" onAction="#updateButtonOA" prefHeight="33.0" prefWidth="64.0" text="Update" />
       <TextField fx:id="nameTF" layoutX="118.0" layoutY="269.0" prefHeight="25.0" prefWidth="121.0" />
       <TextField fx:id="contactTF" layoutX="118.0" layoutY="300.0" prefHeight="25.0" prefWidth="121.0" />

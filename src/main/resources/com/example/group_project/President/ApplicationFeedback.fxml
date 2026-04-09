@@ -26,7 +26,7 @@
       <TableView fx:id="ApplicationFeedbackTV" layoutX="50.0" layoutY="42.0" prefHeight="144.0" prefWidth="499.0">
         <columns>
           <TableColumn fx:id="ApplicationIdTC" prefWidth="97.99996948242188" text="Application ID" />
-          <TableColumn fx:id="EmployeeNameTC" prefWidth="106.66659545898438" text="Employee Name" />
+          <TableColumn fx:id="EmployeeNameTC" prefWidth="106.66659545898438" text="com.example.group_project.Employee Name" />
             <TableColumn fx:id="ApplicationTypeTC" prefWidth="117.33331298828125" text="Application Type" />
             <TableColumn fx:id="DescriptionTC" prefWidth="93.3333740234375" text="Description" />
             <TableColumn fx:id="StatusTC" prefWidth="87.3333740234375" text="Status" />

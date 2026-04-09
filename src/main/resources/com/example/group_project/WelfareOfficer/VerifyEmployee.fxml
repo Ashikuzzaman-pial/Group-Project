@@ -8,14 +8,14 @@
 
 <AnchorPane prefHeight="378.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.group_project.VerifyEmployeeController">
    <children>
-      <Label fx:id="verifyEmployeeLabel" layoutX="231.0" layoutY="41.0" text="Verify Employee">
+      <Label fx:id="verifyEmployeeLabel" layoutX="231.0" layoutY="41.0" text="Verify com.example.group_project.Employee">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
       </Label>
-      <Label layoutX="170.0" layoutY="93.0" text="Select Employee:" />
+      <Label layoutX="170.0" layoutY="93.0" text="Select com.example.group_project.Employee:" />
       <ComboBox fx:id="selectEmployeeCB" layoutX="278.0" layoutY="89.0" prefWidth="150.0" />
-      <Label fx:id="employeeIDLabel" layoutX="262.0" layoutY="136.0" text="Employee ID" />
+      <Label fx:id="employeeIDLabel" layoutX="262.0" layoutY="136.0" text="com.example.group_project.Employee ID" />
       <Label fx:id="nameLabel" layoutX="279.0" layoutY="172.0" text="Name" />
       <Label fx:id="programLabel" layoutX="272.0" layoutY="210.0" text="Program" />
       <Label fx:id="currentStatusLabel" layoutX="262.0" layoutY="247.0" text="Current Status" />

@@ -10,7 +10,7 @@
 
 <AnchorPane prefHeight="444.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.group_project.UpdateReviewController">
    <children>
-      <Label layoutX="57.0" layoutY="62.0" text="Review Id:" />
+      <Label layoutX="57.0" layoutY="62.0" text="com.example.group_project.Review Id:" />
       <TextField fx:id="reviewIdTF" layoutX="130.0" layoutY="58.0" />
       <Button layoutX="162.0" layoutY="102.0" mnemonicParsing="false" onAction="#LoadButtonOA" prefHeight="25.0" prefWidth="73.0" text="Load" />
       <Label layoutX="57.0" layoutY="153.0" text="Decision:" />
@@ -18,7 +18,7 @@
       <Label layoutX="60.0" layoutY="212.0" text="Remarks:" />
       <TextArea fx:id="remarksTA" disable="true" layoutX="130.0" layoutY="212.0" prefHeight="159.0" prefWidth="369.0" />
       <Button layoutX="252.0" layoutY="395.0" mnemonicParsing="false" onAction="#UpdateButtonOA" prefHeight="25.0" prefWidth="91.0" text="Update" />
-      <Label fx:id="updateReviewLabel" layoutX="246.0" layoutY="14.0" prefHeight="27.0" prefWidth="137.0" text="Update Review">
+      <Label fx:id="updateReviewLabel" layoutX="246.0" layoutY="14.0" prefHeight="27.0" prefWidth="137.0" text="Update com.example.group_project.Review">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
