@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.group_project.TrainingOperator.Controller.UpdateTraningController">
+   <children>
+      <Label layoutX="181.0" layoutY="51.0" prefHeight="58.0" prefWidth="162.0" text="UPDATE TRANING" />
+      <Label layoutX="85.0" layoutY="133.0" prefHeight="18.0" prefWidth="102.0" text="TrainingID:" />
+      <Label layoutX="85.0" layoutY="174.0" prefHeight="18.0" prefWidth="88.0" text="TrainingName:" />
+      <Label layoutX="85.0" layoutY="207.0" prefHeight="18.0" prefWidth="82.0" text="Date:" />
+      <Label layoutX="85.0" layoutY="256.0" prefHeight="2.0" prefWidth="96.0" text="Time:" />
+      <Button layoutX="211.0" layoutY="291.0" mnemonicParsing="false" onAction="#updateActionOnButton" prefHeight="4.0" prefWidth="54.0" text="update" />
+      <Label layoutX="140.0" layoutY="329.0" prefHeight="32.0" prefWidth="214.0" text="        Update  Successfully " />
+      <TextField fx:id="traininIdTextField" layoutX="164.0" layoutY="130.0" />
+      <TextField fx:id="trainingNameTextField" layoutX="173.0" layoutY="171.0" />
+      <TextField fx:id="timeTextField" layoutX="131.0" layoutY="252.0" />
+      <DatePicker fx:id="datePicker" layoutX="154.0" layoutY="212.0" />
+   </children>
+</AnchorPane>

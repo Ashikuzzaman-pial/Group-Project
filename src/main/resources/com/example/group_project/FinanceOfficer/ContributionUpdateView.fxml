@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<?import javafx.scene.control.TextField?>
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.group_project.FinanceOfficer.Controller.ContributionUpdateController">
+   <children>
+      <Label layoutX="134.0" layoutY="60.0" prefHeight="51.0" prefWidth="274.0" text="         CONTRIBUTION UPDATE" />
+      <Label layoutX="66.0" layoutY="143.0" prefHeight="18.0" prefWidth="140.0" text="  EmployeeId :" />
+      <Label layoutX="85.0" layoutY="234.0" prefHeight="18.0" prefWidth="66.0" text="Amount:" />
+      <Button layoutX="164.0" layoutY="175.0" mnemonicParsing="false" onAction="#loadDataOnActionButton" text="Load Data " />
+      <Button layoutX="164.0" layoutY="260.0" mnemonicParsing="false" onAction="#updateContributionOnActionButton" prefHeight="26.0" prefWidth="196.0" text="Update Contribution" />
+      <TextField fx:id="employeeIdTextField" layoutX="152.0" layoutY="130.0" />
+      <TextField fx:id="amountTextField" layoutX="153.0" layoutY="231.0" />
+      <Label layoutX="189.0" layoutY="323.0" prefHeight="51.0" prefWidth="222.0" text="    Update successfully" />
+   </children>
+</AnchorPane>
