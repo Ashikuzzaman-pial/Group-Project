@@ -22,7 +22,7 @@ public class FactoryRepresentativeDashboardController
     @javafx.fxml.FXML
     public void registerFactoryButtonOA(ActionEvent actionEvent) {
         try {
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("RegisterFactory.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/com/example/group_project/FactoryRepresentative/RegisterFactory.fxml"));
             Node node = fxmlLoader.load();
             mainPane.getChildren().setAll(node);
         }
@@ -35,7 +35,7 @@ public class FactoryRepresentativeDashboardController
     @javafx.fxml.FXML
     public void employeeListButtonOA(ActionEvent actionEvent) {
         try {
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("EmployeeList.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/com/example/group_project/FactoryRepresentative/EmployeeList.fxml"));
             Node node = fxmlLoader.load();
             mainPane.getChildren().setAll(node);
         }
@@ -48,7 +48,7 @@ public class FactoryRepresentativeDashboardController
     @javafx.fxml.FXML
     public void deleteFactoryButtonOA(ActionEvent actionEvent) {
         try {
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("DeleteFactory.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/com/example/group_project/FactoryRepresentative/DeleteFactory.fxml"));
             Node node = fxmlLoader.load();
             mainPane.getChildren().setAll(node);
         }
@@ -65,7 +65,7 @@ public class FactoryRepresentativeDashboardController
     @javafx.fxml.FXML
     public void updateEmployeeButtonOA(ActionEvent actionEvent) {
         try {
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("UpdateEmployee.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/com/example/group_project/FactoryRepresentative/UpdateEmployee.fxml"));
             Node node = fxmlLoader.load();
             mainPane.getChildren().setAll(node);
         }
@@ -78,7 +78,7 @@ public class FactoryRepresentativeDashboardController
     @javafx.fxml.FXML
     public void registerEmployeeButtonOA(ActionEvent actionEvent) {
         try {
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("RegisterEmployee.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/com/example/group_project/FactoryRepresentative/RegisterEmployee.fxml"));
             Node node = fxmlLoader.load();
             mainPane.getChildren().setAll(node);
         }
@@ -91,7 +91,7 @@ public class FactoryRepresentativeDashboardController
     @javafx.fxml.FXML
     public void deleteEmployeeButtonOA(ActionEvent actionEvent) {
         try {
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("DeleteEmployee.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/com/example/group_project/FactoryRepresentative/DeleteEmployee.fxml"));
             Node node = fxmlLoader.load();
             mainPane.getChildren().setAll(node);
         }
@@ -104,7 +104,7 @@ public class FactoryRepresentativeDashboardController
     @javafx.fxml.FXML
     public void updateFactoryButtonOA(ActionEvent actionEvent) {
         try {
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("UpdateFactory.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/com/example/group_project/FactoryRepresentative/UpdateFactory.fxml"));
             Node node = fxmlLoader.load();
             mainPane.getChildren().setAll(node);
         }
@@ -117,7 +117,7 @@ public class FactoryRepresentativeDashboardController
     @javafx.fxml.FXML
     public void welfareIssueButtonOA(ActionEvent actionEvent) {
         try {
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("WelfareIssue.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/com/example/group_project/FactoryRepresentative/WelfareIssue.fxml"));
             Node node = fxmlLoader.load();
             mainPane.getChildren().setAll(node);
         }
