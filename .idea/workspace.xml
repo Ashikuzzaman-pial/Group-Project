@@ -6,58 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="78616f88-9239-419d-8f72-ee8daf545009" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/Factory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/Note.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/Review.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WelfareApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/WelfareApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/group_project/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/FactoryRepresentative/DeleteEmployee.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/FactoryRepresentative/DeleteEmployee.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/FactoryRepresentative/DeleteFactory.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/FactoryRepresentative/DeleteFactory.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/FactoryRepresentative/EmployeeList.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/FactoryRepresentative/EmployeeList.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/FactoryRepresentative/FactoryRepresenatativeDashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/FactoryRepresentative/FactoryRepresenatativeDashboard.fxml" afterDir="false" />
-=======
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/group_project/AddReviewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/AddReviewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/group_project/AssignedApplicationsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/AssignedApplicationsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/group_project/DeleteReviewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/DeleteReviewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/group_project/FactoryRepresentative/DeleteEmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/FactoryRepresentative/DeleteEmployeeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/group_project/FactoryRepresentative/DeleteFactoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/FactoryRepresentative/DeleteFactoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/group_project/FactoryRepresentative/FactoryRepresentativeDashboardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/FactoryRepresentative/FactoryRepresentativeDashboardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/group_project/FactoryRepresentative/RegisterEmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/FactoryRepresentative/RegisterEmployeeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/group_project/FactoryRepresentative/RegisterFactoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/FactoryRepresentative/RegisterFactoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/group_project/FactoryRepresentative/UpdateEmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/FactoryRepresentative/UpdateEmployeeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/group_project/FactoryRepresentative/UpdateFactoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/FactoryRepresentative/UpdateFactoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/group_project/ReviewSummaryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/ReviewSummaryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/group_project/SendNoteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/SendNoteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/group_project/UpdateApplicationStatusController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/UpdateApplicationStatusController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/group_project/UpdateReviewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/UpdateReviewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/group_project/VerifyEmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/VerifyEmployeeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/group_project/WelfareOfficerDashboardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/WelfareOfficerDashboardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/FactoryRepresentative/DeleteEmployee.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/FactoryRepresentative/DeleteEmployee.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/FactoryRepresentative/DeleteFactory.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/FactoryRepresentative/DeleteFactory.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/FactoryRepresentative/EmployeeList.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/FactoryRepresentative/EmployeeList.fxml" afterDir="false" />
->>>>>>> 988b1ef21d0d9c493891c606f0098f39af725a87
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/FactoryRepresentative/RegisterEmployee.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/FactoryRepresentative/RegisterEmployee.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/FactoryRepresentative/RegisterFactory.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/FactoryRepresentative/RegisterFactory.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/FactoryRepresentative/UpdateEmployee.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/FactoryRepresentative/UpdateEmployee.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/FactoryRepresentative/UpdateFactory.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/FactoryRepresentative/UpdateFactory.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/FactoryRepresentative/WelfareIssue.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/FactoryRepresentative/WelfareIssue.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/President/ApplicationFeedback.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/President/ApplicationFeedback.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/President/ViewApplications.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/President/ViewApplications.fxml" afterDir="false" />
-=======
->>>>>>> 988b1ef21d0d9c493891c606f0098f39af725a87
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/WelfareOfficer/AddReview.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/WelfareOfficer/AddReview.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/WelfareOfficer/AssignedApplications.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/WelfareOfficer/AssignedApplications.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/WelfareOfficer/DeleteReview.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/WelfareOfficer/DeleteReview.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/WelfareOfficer/ReviewSummary.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/WelfareOfficer/ReviewSummary.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/WelfareOfficer/SendNote.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/WelfareOfficer/SendNote.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/WelfareOfficer/UpdateApplicationStatus.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/WelfareOfficer/UpdateApplicationStatus.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/WelfareOfficer/UpdateReview.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/WelfareOfficer/UpdateReview.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/WelfareOfficer/VerifyEmployee.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/WelfareOfficer/VerifyEmployee.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/WelfareOfficer/WelfareOfficerDashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/WelfareOfficer/WelfareOfficerDashboard.fxml" afterDir="false" />
-=======
->>>>>>> 988b1ef21d0d9c493891c606f0098f39af725a87
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,21 +35,6 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.HelloApplication.executor": "Run",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
-  }
-}]]></component>
-  <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.example.group_project" />
-    </key>
-  </component>
-=======
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
@@ -108,7 +42,11 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
->>>>>>> 988b1ef21d0d9c493891c606f0098f39af725a87
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.group_project" />
+    </key>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="78616f88-9239-419d-8f72-ee8daf545009" name="Changes" comment="" />
