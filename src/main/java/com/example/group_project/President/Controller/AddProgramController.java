@@ -1,7 +1,10 @@
 package com.example.group_project.President.Controller;
 
 import javafx.event.ActionEvent;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Node;
 import javafx.scene.control.TextField;
+import javafx.scene.layout.AnchorPane;
 
 public class AddProgramController
 {
@@ -11,6 +14,8 @@ public class AddProgramController
     private TextField ProgramNameTF;
     @javafx.fxml.FXML
     private TextField DescriptionTF;
+    @javafx.fxml.FXML
+    private AnchorPane mainPane;
 
     @javafx.fxml.FXML
     public void initialize() {
@@ -22,5 +27,15 @@ public class AddProgramController
 
     @javafx.fxml.FXML
     public void backButtonOA(ActionEvent actionEvent) {
+
+        try{
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("PresidentDashBoard.fxml"));
+            Node node = fxmlLoader.load();
+            mainPane.getChildren().setAll(node);
+        }
+        catch(Exception e){
+            e.printStackTrace();
+
+        }
     }
 }

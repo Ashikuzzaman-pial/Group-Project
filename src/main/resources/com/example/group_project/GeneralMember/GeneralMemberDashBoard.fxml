@@ -6,7 +6,7 @@
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.group_project.GeneralMember.Controller.GeneralMemberDashBoardController">
+<AnchorPane fx:id="mainPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.group_project.GeneralMember.Controller.GeneralMemberDashBoardController">
    <children>
       <Label alignment="CENTER" layoutX="205.0" layoutY="14.0" prefHeight="43.0" prefWidth="207.0" text="MEMBER DASHBOARD">
          <font>

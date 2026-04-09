@@ -1,7 +1,10 @@
 package com.example.group_project.President.Controller;
 
 import javafx.event.ActionEvent;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Node;
 import javafx.scene.control.*;
+import javafx.scene.layout.AnchorPane;
 
 public class ApplicationFeedbackController
 {
@@ -25,6 +28,8 @@ public class ApplicationFeedbackController
     private TableColumn EmployeeNameTC;
     @javafx.fxml.FXML
     private TableColumn ApplicationTypeTC;
+    @javafx.fxml.FXML
+    private AnchorPane mainPane;
 
     @javafx.fxml.FXML
     public void initialize() {
@@ -36,5 +41,19 @@ public class ApplicationFeedbackController
 
     @javafx.fxml.FXML
     public void RequestButtonOA(ActionEvent actionEvent) {
+    }
+
+    @javafx.fxml.FXML
+    public void backButtonOA(ActionEvent actionEvent) {
+
+        try{
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("PresidentDashBoard.fxml"));
+            Node node = fxmlLoader.load();
+            mainPane.getChildren().setAll(node);
+        }
+        catch(Exception e){
+            e.printStackTrace();
+
+        }
     }
 }
