@@ -19,9 +19,9 @@ public class WelfareOfficerDashboardController {
     }
 
     @javafx.fxml.FXML
-    public void updateStatusButtonOA(ActionEvent actionEvent) {
+    public void reviewSummaryButtonOA(ActionEvent actionEvent) {
         try {
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("UpdateApplicationStatus.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/com/example/group_project/WelfareOfficer/ReviewSummary.fxml"));
             Node node = fxmlLoader.load();
             mainPane.getChildren().setAll(node);
         }
@@ -34,7 +34,7 @@ public class WelfareOfficerDashboardController {
     @javafx.fxml.FXML
     public void verifyEmployeeButtonOA(ActionEvent actionEvent) {
         try {
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("VerifyEmployee.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/com/example/group_project/WelfareOfficer/VerifyEmployee.fxml"));
             Node node = fxmlLoader.load();
             mainPane.getChildren().setAll(node);
         }
@@ -51,7 +51,7 @@ public class WelfareOfficerDashboardController {
     @javafx.fxml.FXML
     public void updateApplicationStatusButtonOA(ActionEvent actionEvent) {
         try {
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("UpdateApplicationStatus.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/com/example/group_project/WelfareOfficer/UpdateApplicationStatus.fxml"));
             Node node = fxmlLoader.load();
             mainPane.getChildren().setAll(node);
         }
@@ -64,7 +64,7 @@ public class WelfareOfficerDashboardController {
     @javafx.fxml.FXML
     public void deleteReviewButtonOA(ActionEvent actionEvent) {
         try {
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("DeleteReview.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/com/example/group_project/WelfareOfficer/DeleteReview.fxml"));
             Node node = fxmlLoader.load();
             mainPane.getChildren().setAll(node);
         }
@@ -77,7 +77,7 @@ public class WelfareOfficerDashboardController {
     @javafx.fxml.FXML
     public void updateReviewButtonOA(ActionEvent actionEvent) {
         try {
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("UpdateReview.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/com/example/group_project/WelfareOfficer/UpdateReview.fxml"));
             Node node = fxmlLoader.load();
             mainPane.getChildren().setAll(node);
         }
@@ -91,7 +91,7 @@ public class WelfareOfficerDashboardController {
     @javafx.fxml.FXML
     public void addReviewButtonOA(ActionEvent actionEvent) {
         try {
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("AddReview.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/com/example/group_project/WelfareOfficer/AddReview.fxml"));
             Node node = fxmlLoader.load();
             mainPane.getChildren().setAll(node);
         }
@@ -104,7 +104,7 @@ public class WelfareOfficerDashboardController {
     @javafx.fxml.FXML
     public void sendNoteButtonOA(ActionEvent actionEvent) {
         try {
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("SendNote.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/com/example/group_project/WelfareOfficer/SendNote.fxml"));
             Node node = fxmlLoader.load();
             mainPane.getChildren().setAll(node);
         }
@@ -118,7 +118,7 @@ public class WelfareOfficerDashboardController {
     public void assignedApplicationsButtonOA(ActionEvent actionEvent) {
 
         try {
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("AssignedApplications.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/com/example/group_project/WelfareOfficer/AssignedApplications.fxml"));
             Node node = fxmlLoader.load();
             mainPane.getChildren().setAll(node);
         }
