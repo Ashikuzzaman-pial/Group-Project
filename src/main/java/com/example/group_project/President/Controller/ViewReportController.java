@@ -18,4 +18,8 @@ public class ViewReportController
     @javafx.fxml.FXML
     public void LoadButtonOA(ActionEvent actionEvent) {
     }
+
+    @javafx.fxml.FXML
+    public void backButtonOA(ActionEvent actionEvent) {
+    }
 }

@@ -18,4 +18,8 @@ public class RejectApplicationController
     @javafx.fxml.FXML
     public void RejectButtonOnAction(ActionEvent actionEvent) {
     }
+
+    @javafx.fxml.FXML
+    public void backButtonOA(ActionEvent actionEvent) {
+    }
 }

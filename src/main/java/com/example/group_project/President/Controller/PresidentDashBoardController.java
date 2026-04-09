@@ -1,9 +1,15 @@
 package com.example.group_project.President.Controller;
 
 import javafx.event.ActionEvent;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Node;
+import javafx.scene.layout.AnchorPane;
 
 public class PresidentDashBoardController
 {
+    @javafx.fxml.FXML
+    private AnchorPane mainPane;
+
     @javafx.fxml.FXML
     public void initialize() {
     }
@@ -14,6 +20,15 @@ public class PresidentDashBoardController
 
     @javafx.fxml.FXML
     public void viewApplicationButtonOA(ActionEvent actionEvent) {
+
+        try{
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("ViewApplications.fxml"));
+            Node node = fxmlLoader.load();
+            mainPane.getChildren().setAll(node);
+        }
+        catch(Exception e){
+
+        }
     }
 
     @javafx.fxml.FXML

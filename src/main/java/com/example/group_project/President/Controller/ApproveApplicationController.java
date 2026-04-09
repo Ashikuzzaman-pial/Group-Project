@@ -21,4 +21,8 @@ public class ApproveApplicationController
     @javafx.fxml.FXML
     public void FilterApproveApplicationButtonOnAction(ActionEvent actionEvent) {
     }
+
+    @javafx.fxml.FXML
+    public void backButtonOA(ActionEvent actionEvent) {
+    }
 }

@@ -19,4 +19,8 @@ public class AddProgramController
     @javafx.fxml.FXML
     public void AddProgramButtonOA(ActionEvent actionEvent) {
     }
+
+    @javafx.fxml.FXML
+    public void backButtonOA(ActionEvent actionEvent) {
+    }
 }

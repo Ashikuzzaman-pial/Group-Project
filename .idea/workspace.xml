@@ -1,8 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="78616f88-9239-419d-8f72-ee8daf545009" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/group_project/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/group_project/President/Controller/AddProgramController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/President/Controller/AddProgramController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/group_project/President/Controller/ApproveApplicationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/President/Controller/ApproveApplicationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/group_project/President/Controller/DeleteProgramController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/President/Controller/DeleteProgramController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/group_project/President/Controller/PresidentDashBoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/President/Controller/PresidentDashBoardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/group_project/President/Controller/RejectApplicationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/President/Controller/RejectApplicationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/group_project/President/Controller/UpdateProgramController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/President/Controller/UpdateProgramController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/group_project/President/Controller/ViewApplicationsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/President/Controller/ViewApplicationsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/group_project/President/Controller/ViewReportController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/President/Controller/ViewReportController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/President/AddProgram.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/President/AddProgram.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/President/ApplicationFeedback.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/President/ApplicationFeedback.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/President/ApproveApplication.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/President/ApproveApplication.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/President/DeleteProgram.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/President/DeleteProgram.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/President/PresidentDashBoard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/President/PresidentDashBoard.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/President/RejectApplication.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/President/RejectApplication.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/President/UpdateProgram.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/President/UpdateProgram.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/President/ViewApplications.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/President/ViewApplications.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/President/ViewReport.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/President/ViewReport.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="3C76wgczKe9IZFvYM205oKGsYLB" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.HelloApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="78616f88-9239-419d-8f72-ee8daf545009" name="Changes" comment="" />
+      <created>1775724503080</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1775724503080</updated>
+    </task>
+    <servers />
+  </component>
 </project>

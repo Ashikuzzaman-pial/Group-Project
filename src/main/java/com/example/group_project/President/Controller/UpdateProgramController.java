@@ -25,4 +25,8 @@ public class UpdateProgramController
     @javafx.fxml.FXML
     public void UpdateButtonOA(ActionEvent actionEvent) {
     }
+
+    @javafx.fxml.FXML
+    public void backButtonOA(ActionEvent actionEvent) {
+    }
 }

@@ -35,4 +35,8 @@ public class ViewApplicationsController
     @javafx.fxml.FXML
     public void ViewDetailsButtonOA(ActionEvent actionEvent) {
     }
+
+    @javafx.fxml.FXML
+    public void backButtonOA(ActionEvent actionEvent) {
+    }
 }
