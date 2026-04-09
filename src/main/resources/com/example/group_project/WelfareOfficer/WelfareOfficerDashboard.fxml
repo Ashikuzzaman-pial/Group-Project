@@ -3,28 +3,30 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="400.0" prefWidth="624.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.group_project.WelfareOfficerDashboardController">
+<AnchorPane fx:id="mainPane" prefHeight="400.0" prefWidth="624.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.group_project.WelfareOfficerDashboardController">
    <children>
-      <Label fx:id="welfareOfficerDashboardLabel" alignment="TOP_CENTER" layoutX="205.0" layoutY="20.0" text="Welfare Officer Dashboard">
+      <Label fx:id="welfareOfficerDashboardLabel" alignment="TOP_CENTER" layoutX="192.0" layoutY="14.0" text="Welfare Officer Dashboard">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="welcomeWelfareOfficerLabel" alignment="CENTER" layoutX="203.0" layoutY="179.0" prefHeight="35.0" prefWidth="230.0" text="Welcome, Welfare Officer!" textFill="#130872">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
       </Label>
-      <Label fx:id="welcomeWelfareOfficerLabel" alignment="CENTER" layoutX="217.0" layoutY="179.0" prefHeight="35.0" prefWidth="204.0" text="Welcome, Welfare Officer!" textFill="#130872">
-         <font>
-            <Font name="System Bold" size="16.0" />
-         </font>
-      </Label>
-      <Button layoutX="35.0" layoutY="54.0" mnemonicParsing="false" onAction="#assignedApplicationsButtonOA" text="Assigned Applications" />
-      <Button layoutX="57.0" layoutY="98.0" mnemonicParsing="false" onAction="#addReviewButtonOA" text="Add Review" />
-      <Button layoutX="48.0" layoutY="141.0" mnemonicParsing="false" onAction="#updateReviewButtonOA" text="Update Review" />
-      <Button layoutX="50.0" layoutY="184.0" mnemonicParsing="false" onAction="#deleteReviewButtonOA" text="Delete Review" />
-      <Button layoutX="43.0" layoutY="228.0" mnemonicParsing="false" onAction="#verifyEmployeeButtonOA" text="Verify Employee" />
+      <Button layoutX="21.0" layoutY="56.0" mnemonicParsing="false" onAction="#assignedApplicationsButtonOA" prefHeight="25.0" prefWidth="154.0" text="Assigned Applications" />
+      <Button layoutX="21.0" layoutY="98.0" mnemonicParsing="false" onAction="#addReviewButtonOA" prefHeight="25.0" prefWidth="154.0" text="Add Review" />
+      <Button layoutX="19.0" layoutY="141.0" mnemonicParsing="false" onAction="#updateReviewButtonOA" prefHeight="25.0" prefWidth="154.0" text="Update Review" />
+      <Button layoutX="20.0" layoutY="184.0" mnemonicParsing="false" onAction="#deleteReviewButtonOA" prefHeight="25.0" prefWidth="154.0" text="Delete Review" />
+      <Button layoutX="19.0" layoutY="227.0" mnemonicParsing="false" onAction="#verifyEmployeeButtonOA" prefHeight="25.0" prefWidth="154.0" text="Verify Employee" />
       <Button layoutX="17.0" layoutY="272.0" mnemonicParsing="false" onAction="#updateApplicationStatusButtonOA" text="Update Application Status" />
-      <Button layoutX="41.0" layoutY="314.0" mnemonicParsing="false" onAction="#updateStatusButtonOA" text="Review Summary" />
-      <Button layoutX="58.0" layoutY="355.0" mnemonicParsing="false" onAction="#sendNoteButtonOA" text="Send Note" />
+      <Button layoutX="17.0" layoutY="314.0" mnemonicParsing="false" onAction="#updateStatusButtonOA" prefHeight="25.0" prefWidth="154.0" text="Review Summary" />
+      <Button layoutX="16.0" layoutY="355.0" mnemonicParsing="false" onAction="#sendNoteButtonOA" prefHeight="15.0" prefWidth="154.0" text="Send Note" />
       <Button layoutX="553.0" layoutY="21.0" mnemonicParsing="false" onAction="#logoutButtonOA" text="Logout" />
+      <Line endX="146.0" layoutX="306.0" layoutY="47.0" startX="-122.0" />
    </children>
 </AnchorPane>

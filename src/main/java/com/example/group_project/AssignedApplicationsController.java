@@ -26,5 +26,8 @@ public class AssignedApplicationsController
 
     @javafx.fxml.FXML
     public void ViewDetailsButtonOA(ActionEvent actionEvent) {
+
+        
+
     }
 }

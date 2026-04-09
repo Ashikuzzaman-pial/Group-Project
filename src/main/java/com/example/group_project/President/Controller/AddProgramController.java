@@ -1,5 +1,8 @@
 package com.example.group_project.President.Controller;
 
+import javafx.event.ActionEvent;
+import javafx.scene.control.TextField;
+
 public class AddProgramController
 {
     @javafx.fxml.FXML

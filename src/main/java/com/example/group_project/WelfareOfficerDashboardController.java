@@ -1,14 +1,18 @@
 package com.example.group_project;
 
 import javafx.event.ActionEvent;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Node;
 import javafx.scene.control.Label;
+import javafx.scene.layout.AnchorPane;
 
-public class WelfareOfficerDashboardController
-{
+public class WelfareOfficerDashboardController {
     @javafx.fxml.FXML
     private Label welcomeWelfareOfficerLabel;
     @javafx.fxml.FXML
     private Label welfareOfficerDashboardLabel;
+    @javafx.fxml.FXML
+    private AnchorPane mainPane;
 
     @javafx.fxml.FXML
     public void initialize() {
@@ -48,5 +52,13 @@ public class WelfareOfficerDashboardController
 
     @javafx.fxml.FXML
     public void assignedApplicationsButtonOA(ActionEvent actionEvent) {
+
+        try {
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("AssignedApplications.fxml"));
+            Node node = fxmlLoader.load();
+            mainPane.getChildren().setAll(node);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 }

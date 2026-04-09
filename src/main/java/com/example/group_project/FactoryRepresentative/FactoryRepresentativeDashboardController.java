@@ -2,6 +2,7 @@ package com.example.group_project.FactoryRepresentative;
 
 import javafx.event.ActionEvent;
 import javafx.scene.control.Label;
+import javafx.scene.layout.AnchorPane;
 
 public class FactoryRepresentativeDashboardController
 {
@@ -9,6 +10,8 @@ public class FactoryRepresentativeDashboardController
     private Label welcomeFactoryRepresentativeLabel;
     @javafx.fxml.FXML
     private Label factoryRepresentativeDashboardLabel;
+    @javafx.fxml.FXML
+    private AnchorPane mainPane;
 
     @javafx.fxml.FXML
     public void initialize() {
