@@ -20,10 +20,28 @@ public class WelfareOfficerDashboardController {
 
     @javafx.fxml.FXML
     public void updateStatusButtonOA(ActionEvent actionEvent) {
+        try {
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("UpdateApplicationStatus.fxml"));
+            Node node = fxmlLoader.load();
+            mainPane.getChildren().setAll(node);
+        }
+        catch (Exception e) {
+            e.printStackTrace();
+        }
+
     }
 
     @javafx.fxml.FXML
     public void verifyEmployeeButtonOA(ActionEvent actionEvent) {
+        try {
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("VerifyEmployee.fxml"));
+            Node node = fxmlLoader.load();
+            mainPane.getChildren().setAll(node);
+        }
+        catch (Exception e) {
+            e.printStackTrace();
+        }
+
     }
 
     @javafx.fxml.FXML
@@ -32,22 +50,68 @@ public class WelfareOfficerDashboardController {
 
     @javafx.fxml.FXML
     public void updateApplicationStatusButtonOA(ActionEvent actionEvent) {
+        try {
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("UpdateApplicationStatus.fxml"));
+            Node node = fxmlLoader.load();
+            mainPane.getChildren().setAll(node);
+        }
+        catch (Exception e) {
+            e.printStackTrace();
+        }
+
     }
 
     @javafx.fxml.FXML
     public void deleteReviewButtonOA(ActionEvent actionEvent) {
+        try {
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("DeleteReview.fxml"));
+            Node node = fxmlLoader.load();
+            mainPane.getChildren().setAll(node);
+        }
+        catch (Exception e) {
+            e.printStackTrace();
+        }
+
     }
 
     @javafx.fxml.FXML
     public void updateReviewButtonOA(ActionEvent actionEvent) {
+        try {
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("UpdateReview.fxml"));
+            Node node = fxmlLoader.load();
+            mainPane.getChildren().setAll(node);
+        }
+        catch (Exception e) {
+            e.printStackTrace();
+        }
+
+
     }
 
     @javafx.fxml.FXML
     public void addReviewButtonOA(ActionEvent actionEvent) {
+        try {
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("AddReview.fxml"));
+            Node node = fxmlLoader.load();
+            mainPane.getChildren().setAll(node);
+        }
+        catch (Exception e) {
+            e.printStackTrace();
+        }
+
     }
 
     @javafx.fxml.FXML
     public void sendNoteButtonOA(ActionEvent actionEvent) {
+        try {
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("SendNote.fxml"));
+            Node node = fxmlLoader.load();
+            mainPane.getChildren().setAll(node);
+        }
+        catch (Exception e) {
+            e.printStackTrace();
+        }
+
     }
 
     @javafx.fxml.FXML
@@ -57,7 +121,8 @@ public class WelfareOfficerDashboardController {
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("AssignedApplications.fxml"));
             Node node = fxmlLoader.load();
             mainPane.getChildren().setAll(node);
-        } catch (Exception e) {
+        }
+        catch (Exception e) {
             e.printStackTrace();
         }
     }

@@ -15,6 +15,8 @@ public class DeleteFactoryController
     private TableColumn nameTC;
     @javafx.fxml.FXML
     private TableView tableViewTV;
+    @javafx.fxml.FXML
+    private AnchorPane mainPane;
 
     @javafx.fxml.FXML
     public void initialize() {

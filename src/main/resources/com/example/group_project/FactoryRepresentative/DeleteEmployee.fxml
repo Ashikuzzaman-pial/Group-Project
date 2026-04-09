@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="376.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.group_project.FactoryRepresentative.DeleteEmployeeController">
+<AnchorPane fx:id="mainPane" prefHeight="376.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.group_project.FactoryRepresentative.DeleteEmployeeController">
    <children>
       <Label fx:id="deleteEmployeeLabel" layoutX="229.0" layoutY="27.0" text="Delete com.example.group_project.Employee">
          <font>

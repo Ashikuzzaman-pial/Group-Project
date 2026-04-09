@@ -10,6 +10,8 @@ public class DeleteReviewController
     private TextField removeIdTF;
     @javafx.fxml.FXML
     private Label deleteReviewLabel;
+    @javafx.fxml.FXML
+    private AnchorPane mainPane;
 
     @javafx.fxml.FXML
     public void initialize() {

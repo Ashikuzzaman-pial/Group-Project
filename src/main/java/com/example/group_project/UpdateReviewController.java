@@ -13,6 +13,8 @@ public class UpdateReviewController
     private TextArea remarksTA;
     @javafx.fxml.FXML
     private Label updateReviewLabel;
+    @javafx.fxml.FXML
+    private AnchorPane mainPane;
 
     @javafx.fxml.FXML
     public void initialize() {

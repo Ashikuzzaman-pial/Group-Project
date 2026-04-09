@@ -17,6 +17,8 @@ public class RegisterEmployeeController
     private TextField employeeIDTF;
     @javafx.fxml.FXML
     private TextField designationTF;
+    @javafx.fxml.FXML
+    private AnchorPane mainPane;
 
     @javafx.fxml.FXML
     public void initialize() {

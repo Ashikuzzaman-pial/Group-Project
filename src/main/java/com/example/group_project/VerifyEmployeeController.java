@@ -18,6 +18,8 @@ public class VerifyEmployeeController
     private Label programLabel;
     @javafx.fxml.FXML
     private ComboBox selectEmployeeCB;
+    @javafx.fxml.FXML
+    private AnchorPane mainPane;
 
     @javafx.fxml.FXML
     public void initialize() {

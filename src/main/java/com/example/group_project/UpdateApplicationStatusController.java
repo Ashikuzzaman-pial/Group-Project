@@ -17,6 +17,8 @@ public class UpdateApplicationStatusController
     private TableColumn applicationIDTC;
     @javafx.fxml.FXML
     private Label updateApplicationStatusLabel;
+    @javafx.fxml.FXML
+    private AnchorPane mainPane;
 
     @javafx.fxml.FXML
     public void initialize() {

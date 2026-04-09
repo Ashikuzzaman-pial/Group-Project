@@ -17,6 +17,8 @@ public class AddReviewController
     private TextField applicationIDTF;
     @javafx.fxml.FXML
     private Label addReviewLabel;
+    @javafx.fxml.FXML
+    private AnchorPane mainPane;
 
     @javafx.fxml.FXML
     public void initialize() {
