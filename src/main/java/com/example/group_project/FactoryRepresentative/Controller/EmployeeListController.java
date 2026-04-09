@@ -1,9 +1,7 @@
-package com.example.group_project.FactoryRepresentative;
+package com.example.group_project.FactoryRepresentative.Controller;
 
-import javafx.scene.control.ComboBox;
-import javafx.scene.control.Label;
-import javafx.scene.control.TableColumn;
-import javafx.scene.control.TableView;
+import javafx.scene.control.*;
+import javafx.scene.layout.AnchorPane;
 
 public class EmployeeListController
 {
@@ -20,7 +18,12 @@ public class EmployeeListController
     @javafx.fxml.FXML
     private TableColumn idTC;
     @javafx.fxml.FXML
+    private AnchorPane mainPane;
+    @javafx.fxml.FXML
     private TableColumn designTC;
+    @javafx.fxml.FXML
+    private Label noemployeesfoundLabel;
+
 
     @javafx.fxml.FXML
     public void initialize() {

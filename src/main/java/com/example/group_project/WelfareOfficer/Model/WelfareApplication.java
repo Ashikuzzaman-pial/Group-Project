@@ -1,4 +1,6 @@
-package com.example.group_project;
+package com.example.group_project.WelfareOfficer.Model;
+
+import com.example.group_project.FactoryRepresentative.Model.Employee;
 
 import java.time.LocalDate;
 

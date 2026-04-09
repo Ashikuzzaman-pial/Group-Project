@@ -6,14 +6,14 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="mainPane" prefHeight="315.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.group_project.FactoryRepresentative.RegisterFactoryController">
+<AnchorPane fx:id="mainPane" prefHeight="315.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.group_project.FactoryRepresentative.Controller.RegisterFactoryController">
    <children>
-      <Label fx:id="registerFactoryLabel" layoutX="231.0" layoutY="33.0" text="Register com.example.group_project.Factory">
+      <Label fx:id="registerFactoryLabel" layoutX="231.0" layoutY="33.0" text="Register com.example.group_project.FactoryRepresentative.Model.Factory">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
       </Label>
-      <Label layoutX="177.0" layoutY="84.0" text="com.example.group_project.Factory Name:" />
+      <Label layoutX="177.0" layoutY="84.0" text="com.example.group_project.FactoryRepresentative.Model.Factory Name:" />
       <Label layoutX="209.0" layoutY="133.0" text="Address:" />
       <TextField fx:id="factoryNameTF" layoutX="274.0" layoutY="80.0" />
       <TextField fx:id="addressTF" layoutX="274.0" layoutY="129.0" />

@@ -7,14 +7,14 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="mainPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.group_project.WelfareIssueController">
+<AnchorPane fx:id="mainPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.group_project.FactoryRepresentative.Controller.WelfareIssueController">
    <children>
-      <Label fx:id="submitWelfareIssueLabel" layoutX="215.0" layoutY="21.0" text="Submit Welfare Issue">
+      <Label fx:id="submitWelfareIssueLabel" layoutX="215.0" layoutY="21.0" text="Submit Welfare Issue" textFill="#d30d69">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
       </Label>
-      <Label layoutX="179.0" layoutY="65.0" text="Select com.example.group_project.Employee:" />
+      <Label layoutX="179.0" layoutY="65.0" text="Select Employee:" />
       <Label layoutX="179.0" layoutY="107.0" text="Isuue:" />
       <ComboBox fx:id="selectEmployeeCB" layoutX="277.0" layoutY="61.0" prefWidth="150.0" />
       <TextArea fx:id="issueTextArea" layoutX="232.0" layoutY="107.0" prefHeight="200.0" prefWidth="200.0" />

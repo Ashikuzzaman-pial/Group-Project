@@ -1,9 +1,10 @@
-package com.example.group_project.FactoryRepresentative;
+package com.example.group_project.FactoryRepresentative.Controller;
 
 import javafx.event.ActionEvent;
 import javafx.scene.control.Label;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
+import javafx.scene.layout.AnchorPane;
 
 public class DeleteEmployeeController
 {

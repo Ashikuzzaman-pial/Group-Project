@@ -1,4 +1,4 @@
-package com.example.group_project;
+package com.example.group_project.WelfareOfficer.Model;
 
 public class Review {
     private int id;

@@ -7,9 +7,9 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="mainPane" prefHeight="379.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.group_project.EmployeeListController">
+<AnchorPane fx:id="mainPane" prefHeight="379.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.group_project.FactoryRepresentative.Controller.EmployeeListController">
    <children>
-      <Label fx:id="employeeListLabel" layoutX="242.0" layoutY="27.0" text="com.example.group_project.Employee List">
+      <Label fx:id="employeeListLabel" layoutX="242.0" layoutY="27.0" text="com.example.group_project.FactoryRepresentative.Model.Employee List">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>

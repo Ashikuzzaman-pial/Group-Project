@@ -1,7 +1,8 @@
-package com.example.group_project.FactoryRepresentative;
+package com.example.group_project.FactoryRepresentative.Controller;
 
 import javafx.event.ActionEvent;
 import javafx.scene.control.*;
+import javafx.scene.layout.AnchorPane;
 
 public class UpdateEmployeeController
 {

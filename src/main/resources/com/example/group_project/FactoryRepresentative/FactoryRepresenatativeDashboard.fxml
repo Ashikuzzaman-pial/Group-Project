@@ -6,27 +6,27 @@
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="mainPane" prefHeight="400.0" prefWidth="624.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.group_project.FactoryRepresentative.FactoryRepresentativeDashboardController">
+<AnchorPane fx:id="mainPane" prefHeight="400.0" prefWidth="624.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.group_project.FactoryRepresentative.Controller.FactoryRepresentativeDashboardController">
    <children>
-      <Label fx:id="factoryRepresentativeDashboardLabel" alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="143.0" layoutY="14.0" prefHeight="30.0" prefWidth="339.0" text="com.example.group_project.Factory Representative Dashboard">
+      <Label fx:id="factoryRepresentativeDashboardLabel" alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="143.0" layoutY="14.0" prefHeight="30.0" prefWidth="339.0" text="Factory Representative Dashboard" textFill="#d30d69">
          <font>
             <Font name="System Bold" size="20.0" />
          </font>
       </Label>
-      <Label fx:id="welcomeFactoryRepresentativeLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="163.0" layoutY="183.0" prefHeight="35.0" prefWidth="300.0" text="Welcome, com.example.group_project.Factory Representative!" textFill="#130872">
+      <Label fx:id="welcomeFactoryRepresentativeLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="163.0" layoutY="183.0" prefHeight="35.0" prefWidth="300.0" text="Welcome, Factory Representative!" textFill="#d30d69">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
       </Label>
-      <Button layoutX="21.0" layoutY="56.0" mnemonicParsing="false" onAction="#registerFactoryButtonOA" prefHeight="25.0" prefWidth="115.0" text="Register com.example.group_project.Factory" />
-      <Button layoutX="21.0" layoutY="98.0" mnemonicParsing="false" onAction="#updateFactoryButtonOA" prefHeight="25.0" prefWidth="115.0" text="Update com.example.group_project.Factory" />
-      <Button layoutX="19.0" layoutY="141.0" mnemonicParsing="false" onAction="#deleteFactoryButtonOA" prefHeight="25.0" prefWidth="115.0" text="Delete com.example.group_project.Factory" />
-      <Button layoutX="19.0" layoutY="183.0" mnemonicParsing="false" onAction="#registerEmployeeButtonOA" text="Register com.example.group_project.Employee" />
-      <Button layoutX="21.0" layoutY="228.0" mnemonicParsing="false" onAction="#updateEmployeeButtonOA" prefHeight="25.0" prefWidth="115.0" text="Update com.example.group_project.Employee" />
-      <Button layoutX="19.0" layoutY="273.0" mnemonicParsing="false" onAction="#deleteEmployeeButtonOA" prefHeight="25.0" prefWidth="115.0" text="Delete com.example.group_project.Employee" />
-      <Button layoutX="19.0" layoutY="316.0" mnemonicParsing="false" onAction="#employeeListButtonOA" prefHeight="25.0" prefWidth="115.0" text="com.example.group_project.Employee List" />
-      <Button layoutX="19.0" layoutY="355.0" mnemonicParsing="false" onAction="#welfareIssueButtonOA" prefHeight="25.0" prefWidth="115.0" text="Welfare Issue" />
-      <Button layoutX="548.0" layoutY="21.0" mnemonicParsing="false" onAction="#logoutButtonOA" text="Logout" />
+      <Button layoutX="22.0" layoutY="56.0" mnemonicParsing="false" onAction="#registerFactoryButtonOA" prefHeight="25.0" prefWidth="115.0" text="Register Factory" textFill="#d30d69" />
+      <Button layoutX="21.0" layoutY="98.0" mnemonicParsing="false" onAction="#updateFactoryButtonOA" prefHeight="25.0" prefWidth="115.0" text="Update Factory" textFill="#d30d69" />
+      <Button layoutX="19.0" layoutY="141.0" mnemonicParsing="false" onAction="#deleteFactoryButtonOA" prefHeight="25.0" prefWidth="115.0" text="Delete Factory" textFill="#d30d69" />
+      <Button layoutX="19.0" layoutY="183.0" mnemonicParsing="false" onAction="#registerEmployeeButtonOA" text="Register Employee" textFill="#d30d69" />
+      <Button layoutX="21.0" layoutY="228.0" mnemonicParsing="false" onAction="#updateEmployeeButtonOA" prefHeight="25.0" prefWidth="115.0" text="Update Employee" textFill="#d30d69" />
+      <Button layoutX="19.0" layoutY="273.0" mnemonicParsing="false" onAction="#deleteEmployeeButtonOA" prefHeight="25.0" prefWidth="115.0" text="Delete Employee" textFill="#d30d69" />
+      <Button layoutX="19.0" layoutY="316.0" mnemonicParsing="false" onAction="#employeeListButtonOA" prefHeight="25.0" prefWidth="115.0" text="Employee List" textFill="#d30d69" />
+      <Button layoutX="19.0" layoutY="355.0" mnemonicParsing="false" onAction="#welfareIssueButtonOA" prefHeight="25.0" prefWidth="115.0" text="Welfare Issue" textFill="#d30d69" />
+      <Button layoutX="548.0" layoutY="21.0" mnemonicParsing="false" onAction="#logoutButtonOA" text="Logout" textFill="#d30d69" />
       <Line endX="181.0" layoutX="302.0" layoutY="47.0" startX="-160.0" />
    </children>
 </AnchorPane>

@@ -7,14 +7,14 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="mainPane" prefHeight="358.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.group_project.FactoryRepresentative.RegisterEmployeeController">
+<AnchorPane fx:id="mainPane" prefHeight="358.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.group_project.FactoryRepresentative.Controller.RegisterEmployeeController">
    <children>
-      <Label fx:id="registerEmployeeLabel" layoutX="224.0" layoutY="28.0" text="Register com.example.group_project.Employee">
+      <Label fx:id="registerEmployeeLabel" layoutX="224.0" layoutY="28.0" text="Register com.example.group_project.FactoryRepresentative.Model.Employee">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
       </Label>
-      <Label layoutX="204.0" layoutY="76.0" text="com.example.group_project.Employee ID:" />
+      <Label layoutX="204.0" layoutY="76.0" text="com.example.group_project.FactoryRepresentative.Model.Employee ID:" />
       <Label layoutX="204.0" layoutY="112.0" text="Name:" />
       <Label layoutX="204.0" layoutY="154.0" text="Contact:" />
       <Label layoutX="204.0" layoutY="190.0" text="Designation:" />

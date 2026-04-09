@@ -6,12 +6,12 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="mainPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.group_project.DeleteReviewController">
+<AnchorPane fx:id="mainPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.group_project.WelfareOfficer.Controller.DeleteReviewController">
    <children>
       <Label layoutX="172.0" layoutY="181.0" text="Remove Id:" />
       <TextField fx:id="removeIdTF" layoutX="242.0" layoutY="177.0" />
       <Button layoutX="275.0" layoutY="229.0" mnemonicParsing="false" onAction="#DeleteButtonOA" text="Delete" />
-      <Label fx:id="deleteReviewLabel" layoutX="256.0" layoutY="65.0" text="Delete com.example.group_project.Review">
+      <Label fx:id="deleteReviewLabel" layoutX="256.0" layoutY="65.0" text="Delete com.example.group_project.WelfareOfficer.Model.Review">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>

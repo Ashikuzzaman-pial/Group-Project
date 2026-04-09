@@ -9,9 +9,9 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="mainPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.group_project.FactoryRepresentative.UpdateEmployeeController">
+<AnchorPane fx:id="mainPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.group_project.FactoryRepresentative.Controller.UpdateEmployeeController">
    <children>
-      <Label fx:id="updateEmployeeLabel" layoutX="226.0" layoutY="24.0" text="Update com.example.group_project.Employee">
+      <Label fx:id="updateEmployeeLabel" layoutX="226.0" layoutY="24.0" text="Update com.example.group_project.FactoryRepresentative.Model.Employee">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>

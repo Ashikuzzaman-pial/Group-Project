@@ -1,4 +1,4 @@
-package com.example.group_project;
+package com.example.group_project.FactoryRepresentative.Model;
 
 public class Factory {
     private int id;

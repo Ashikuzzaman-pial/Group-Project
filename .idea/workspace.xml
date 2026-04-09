@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="78616f88-9239-419d-8f72-ee8daf545009" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/src/main/java/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/Factory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/Note.java" afterDir="false" />
@@ -44,7 +43,6 @@
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/FactoryRepresentative/UpdateEmployee.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/FactoryRepresentative/UpdateEmployee.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/FactoryRepresentative/UpdateFactory.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/FactoryRepresentative/UpdateFactory.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/FactoryRepresentative/WelfareIssue.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/FactoryRepresentative/WelfareIssue.fxml" afterDir="false" />
-<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/President/ApplicationFeedback.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/President/ApplicationFeedback.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/President/ViewApplications.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/President/ViewApplications.fxml" afterDir="false" />
 =======
@@ -57,7 +55,6 @@
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/WelfareOfficer/UpdateApplicationStatus.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/WelfareOfficer/UpdateApplicationStatus.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/WelfareOfficer/UpdateReview.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/WelfareOfficer/UpdateReview.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/WelfareOfficer/VerifyEmployee.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/WelfareOfficer/VerifyEmployee.fxml" afterDir="false" />
-<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/WelfareOfficer/WelfareOfficerDashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/WelfareOfficer/WelfareOfficerDashboard.fxml" afterDir="false" />
 =======
 >>>>>>> 988b1ef21d0d9c493891c606f0098f39af725a87
@@ -89,7 +86,6 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-<<<<<<< HEAD
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.HelloApplication.executor": "Run",

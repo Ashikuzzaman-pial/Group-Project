@@ -1,19 +1,21 @@
-package com.example.group_project;
+package com.example.group_project.FactoryRepresentative.Controller;
 
 import javafx.event.ActionEvent;
 import javafx.scene.control.*;
 import javafx.scene.layout.AnchorPane;
 
-public class WelfareIssueController
+public class RegisterFactoryController
 {
     @javafx.fxml.FXML
-    private TextArea issueTextArea;
+    private TextField factoryNameTF;
+    @javafx.fxml.FXML
+    private Label registerFactoryLabel;
+    @javafx.fxml.FXML
+    private TextField addressTF;
+    @javafx.fxml.FXML
+    private TextField contactNoTF;
     @javafx.fxml.FXML
     private AnchorPane mainPane;
-    @javafx.fxml.FXML
-    private ComboBox selectEmployeeCB;
-    @javafx.fxml.FXML
-    private Label submitWelfareIssueLabel;
 
     @javafx.fxml.FXML
     public void initialize() {
