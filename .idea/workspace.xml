@@ -4,29 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78616f88-9239-419d-8f72-ee8daf545009" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/group_project/GeneralMember/Controller/GeneralMemberDashBoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/GeneralMember/Controller/GeneralMemberDashBoardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/group_project/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/group_project/President/Controller/AddProgramController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/President/Controller/AddProgramController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/group_project/President/Controller/ApplicationFeedbackController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/President/Controller/ApplicationFeedbackController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/group_project/President/Controller/ApproveApplicationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/President/Controller/ApproveApplicationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/group_project/President/Controller/DeleteProgramController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/President/Controller/DeleteProgramController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/group_project/President/Controller/PresidentDashBoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/President/Controller/PresidentDashBoardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/group_project/President/Controller/RejectApplicationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/President/Controller/RejectApplicationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/group_project/President/Controller/UpdateProgramController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/President/Controller/UpdateProgramController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/group_project/President/Controller/ViewApplicationsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/President/Controller/ViewApplicationsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/group_project/President/Controller/ViewReportController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/President/Controller/ViewReportController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/GeneralMember/GeneralMemberDashBoard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/GeneralMember/GeneralMemberDashBoard.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/President/AddProgram.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/President/AddProgram.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/President/ApplicationFeedback.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/President/ApplicationFeedback.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/President/ApproveApplication.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/President/ApproveApplication.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/President/DeleteProgram.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/President/DeleteProgram.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/President/RejectApplication.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/President/RejectApplication.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/President/UpdateProgram.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/President/UpdateProgram.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/President/ViewApplications.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/President/ViewApplications.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/President/ViewReport.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/President/ViewReport.fxml" afterDir="false" />
-    </list>
+    <list default="true" id="78616f88-9239-419d-8f72-ee8daf545009" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
