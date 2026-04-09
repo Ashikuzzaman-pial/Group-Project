@@ -7,21 +7,29 @@ import javafx.scene.layout.AnchorPane;
 public class AssignedApplicationsController
 {
     @javafx.fxml.FXML
-    private ComboBox filterCB;
-    @javafx.fxml.FXML
     private TableView tableViewTV;
     @javafx.fxml.FXML
     private TableColumn statusTC;
     @javafx.fxml.FXML
-    private TableColumn caseTypeTC;
-    @javafx.fxml.FXML
     private TableColumn applicationIdTC;
-    @javafx.fxml.FXML
-    private TableColumn employeeIDTC;
     @javafx.fxml.FXML
     private Label assignedApplicationLabel;
     @javafx.fxml.FXML
     private AnchorPane mainPane;
+    @javafx.fxml.FXML
+    private DatePicker toDP;
+    @javafx.fxml.FXML
+    private TableColumn programTC;
+    @javafx.fxml.FXML
+    private TableColumn employeeNameTC;
+    @javafx.fxml.FXML
+    private ComboBox statusCB;
+    @javafx.fxml.FXML
+    private TableColumn dateTC;
+    @javafx.fxml.FXML
+    private Label statusLabel;
+    @javafx.fxml.FXML
+    private DatePicker fromDP;
 
     @javafx.fxml.FXML
     public void initialize() {
@@ -32,5 +40,9 @@ public class AssignedApplicationsController
 
         
 
+    }
+
+    @javafx.fxml.FXML
+    public void filterButtonOA(ActionEvent actionEvent) {
     }
 }

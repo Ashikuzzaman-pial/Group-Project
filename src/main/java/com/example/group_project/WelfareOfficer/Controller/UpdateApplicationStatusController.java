@@ -7,8 +7,6 @@ import javafx.scene.layout.AnchorPane;
 public class UpdateApplicationStatusController
 {
     @javafx.fxml.FXML
-    private ComboBox newStatusCB;
-    @javafx.fxml.FXML
     private TableView tableViewTV;
     @javafx.fxml.FXML
     private TableColumn employeeNameTC;
@@ -20,6 +18,16 @@ public class UpdateApplicationStatusController
     private Label updateApplicationStatusLabel;
     @javafx.fxml.FXML
     private AnchorPane mainPane;
+    @javafx.fxml.FXML
+    private TableColumn programTC;
+    @javafx.fxml.FXML
+    private ComboBox StatusCB;
+    @javafx.fxml.FXML
+    private TableColumn submissionDateTC;
+    @javafx.fxml.FXML
+    private Label selectApplicationLabel;
+    @javafx.fxml.FXML
+    private Label selectNewStatusLabel;
 
     @javafx.fxml.FXML
     public void initialize() {

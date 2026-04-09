@@ -14,6 +14,8 @@ public class SendNoteController
     private TextArea messageTA;
     @javafx.fxml.FXML
     private AnchorPane mainPane;
+    @javafx.fxml.FXML
+    private Label errorLabel;
 
     @javafx.fxml.FXML
     public void initialize() {

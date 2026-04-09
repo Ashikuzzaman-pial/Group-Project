@@ -22,6 +22,10 @@ public class ReviewSummaryController
     private DatePicker fromDP;
     @javafx.fxml.FXML
     private AnchorPane mainPane;
+    @javafx.fxml.FXML
+    private TableColumn remarksTC;
+    @javafx.fxml.FXML
+    private TableColumn reviewIDTC;
 
     @javafx.fxml.FXML
     public void initialize() {

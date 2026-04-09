@@ -11,13 +11,13 @@
 <AnchorPane fx:id="mainPane" prefHeight="432.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.group_project.WelfareOfficer.Controller.AddReviewController">
    <children>
       <TextField fx:id="applicationIDTF" layoutX="269.0" layoutY="60.0" />
-      <Label layoutX="182.0" layoutY="64.0" text="Application ID:" />
+      <Label layoutX="182.0" layoutY="64.0" text="Application ID:" textFill="#d30d69" />
       <ComboBox fx:id="designCB" layoutX="269.0" layoutY="105.0" prefWidth="150.0" />
-      <Label layoutX="207.0" layoutY="109.0" text="Design:" />
+      <Label layoutX="207.0" layoutY="109.0" text="Design:" textFill="#d30d69" />
       <TextArea fx:id="remarksTA" layoutX="112.0" layoutY="152.0" prefHeight="200.0" prefWidth="390.0" />
-      <Label layoutX="46.0" layoutY="152.0" text="Remarks:" />
-      <Button layoutX="273.0" layoutY="375.0" mnemonicParsing="false" onAction="#SubmitReviewButtonOA" text="Submit com.example.group_project.WelfareOfficer.Model.Review" />
-      <Label fx:id="addReviewLabel" layoutX="250.0" layoutY="14.0" text="Add com.example.group_project.WelfareOfficer.Model.Review">
+      <Label layoutX="46.0" layoutY="152.0" text="Remarks:" textFill="#d30d69" />
+      <Button layoutX="273.0" layoutY="375.0" mnemonicParsing="false" onAction="#SubmitReviewButtonOA" text="Submit Review" textFill="#d30d69" />
+      <Label fx:id="addReviewLabel" layoutX="250.0" layoutY="14.0" text="Add Review" textFill="#d30d69">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>

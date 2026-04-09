@@ -14,6 +14,8 @@ public class WelfareIssueController
     private ComboBox selectEmployeeCB;
     @javafx.fxml.FXML
     private Label submitWelfareIssueLabel;
+    @javafx.fxml.FXML
+    private Label errorLabel;
 
     @javafx.fxml.FXML
     public void initialize() {

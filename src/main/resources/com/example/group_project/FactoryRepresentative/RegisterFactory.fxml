@@ -8,17 +8,17 @@
 
 <AnchorPane fx:id="mainPane" prefHeight="315.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.group_project.FactoryRepresentative.Controller.RegisterFactoryController">
    <children>
-      <Label fx:id="registerFactoryLabel" layoutX="231.0" layoutY="33.0" text="Register com.example.group_project.FactoryRepresentative.Model.Factory">
+      <Label fx:id="registerFactoryLabel" layoutX="231.0" layoutY="33.0" text="Register Factory" textFill="#d30d69">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
       </Label>
-      <Label layoutX="177.0" layoutY="84.0" text="com.example.group_project.FactoryRepresentative.Model.Factory Name:" />
-      <Label layoutX="209.0" layoutY="133.0" text="Address:" />
+      <Label layoutX="177.0" layoutY="84.0" text="Factory Name:" textFill="#d30d69" />
+      <Label layoutX="209.0" layoutY="133.0" text="Address:" textFill="#d30d69" />
       <TextField fx:id="factoryNameTF" layoutX="274.0" layoutY="80.0" />
       <TextField fx:id="addressTF" layoutX="274.0" layoutY="129.0" />
-      <Label layoutX="196.0" layoutY="179.0" text="Contact No:" />
+      <Label layoutX="196.0" layoutY="179.0" text="Contact No:" textFill="#d30d69" />
       <TextField fx:id="contactNoTF" layoutX="274.0" layoutY="175.0" />
-      <Button layoutX="250.0" layoutY="227.0" mnemonicParsing="false" onAction="#submitButtonOA" prefHeight="37.0" prefWidth="86.0" text="Submit" />
+      <Button layoutX="250.0" layoutY="227.0" mnemonicParsing="false" onAction="#submitButtonOA" prefHeight="37.0" prefWidth="86.0" text="Submit" textFill="#d30d69" />
    </children>
 </AnchorPane>

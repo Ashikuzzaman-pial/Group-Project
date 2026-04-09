@@ -8,17 +8,19 @@
 
 <AnchorPane fx:id="mainPane" prefHeight="378.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.group_project.WelfareOfficer.Controller.VerifyEmployeeController">
    <children>
-      <Label fx:id="verifyEmployeeLabel" layoutX="231.0" layoutY="41.0" text="Verify com.example.group_project.FactoryRepresentative.Model.Employee">
+      <Label fx:id="verifyEmployeeLabel" layoutX="231.0" layoutY="14.0" text="Verify Employee" textFill="#d30d69">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
       </Label>
-      <Label layoutX="170.0" layoutY="93.0" text="Select com.example.group_project.Employee:" />
-      <ComboBox fx:id="selectEmployeeCB" layoutX="278.0" layoutY="89.0" prefWidth="150.0" />
-      <Label fx:id="employeeIDLabel" layoutX="262.0" layoutY="136.0" text="com.example.group_project.FactoryRepresentative.Model.Employee ID" />
-      <Label fx:id="nameLabel" layoutX="279.0" layoutY="172.0" text="Name" />
-      <Label fx:id="programLabel" layoutX="272.0" layoutY="210.0" text="Program" />
-      <Label fx:id="currentStatusLabel" layoutX="262.0" layoutY="247.0" text="Current Status" />
-      <Button layoutX="265.0" layoutY="295.0" mnemonicParsing="false" onAction="#verifyButtonOA" prefHeight="38.0" prefWidth="68.0" text="Verify" />
+      <Label layoutX="166.0" layoutY="54.0" text="Select Employee:" textFill="#d30d69" />
+      <ComboBox fx:id="selectEmployeeCB" layoutX="274.0" layoutY="50.0" prefWidth="150.0" />
+      <Label fx:id="employeeIDLabel" layoutX="266.0" layoutY="100.0" text="Employee ID" textFill="#d30d69" />
+      <Label fx:id="nameLabel" layoutX="283.0" layoutY="132.0" text="Name" textFill="#d30d69" />
+      <Label fx:id="programLabel" layoutX="276.0" layoutY="165.0" text="Program" textFill="#d30d69" />
+      <Label fx:id="employeeNotEligibleLabel" layoutX="243.0" layoutY="339.0" text="Employee not eligible" textFill="#d30d69" />
+      <Button layoutX="265.0" layoutY="279.0" mnemonicParsing="false" onAction="#verifyButtonOA" prefHeight="38.0" prefWidth="68.0" text="Verify" textFill="#d30d69" />
+      <Label fx:id="programCriteriaLabel" layoutX="256.0" layoutY="205.0" text="Program Criteria" textFill="#d30d69" />
+      <Label fx:id="eligibilityStatusLabel" layoutX="257.0" layoutY="244.0" text="Eligibility Status" textFill="#d30d69" />
    </children>
 </AnchorPane>

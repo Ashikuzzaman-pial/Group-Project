@@ -7,15 +7,7 @@ import javafx.scene.layout.AnchorPane;
 public class DeleteFactoryController
 {
     @javafx.fxml.FXML
-    private TableColumn contactTC;
-    @javafx.fxml.FXML
-    private TableColumn addressTC;
-    @javafx.fxml.FXML
     private Label deleteFactoryLabel;
-    @javafx.fxml.FXML
-    private TableColumn nameTC;
-    @javafx.fxml.FXML
-    private TableView tableViewTV;
     @javafx.fxml.FXML
     private AnchorPane mainPane;
 

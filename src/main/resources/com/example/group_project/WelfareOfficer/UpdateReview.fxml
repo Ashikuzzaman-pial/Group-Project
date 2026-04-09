@@ -4,24 +4,24 @@
 <?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextArea?>
-<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="mainPane" prefHeight="444.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.group_project.WelfareOfficer.Controller.UpdateReviewController">
+<AnchorPane fx:id="mainPane" prefHeight="457.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.group_project.WelfareOfficer.Controller.UpdateReviewController">
    <children>
-      <Label layoutX="57.0" layoutY="62.0" text="com.example.group_project.WelfareOfficer.Model.Review Id:" />
-      <TextField fx:id="reviewIdTF" layoutX="130.0" layoutY="58.0" />
-      <Button layoutX="162.0" layoutY="102.0" mnemonicParsing="false" onAction="#LoadButtonOA" prefHeight="25.0" prefWidth="73.0" text="Load" />
-      <Label layoutX="57.0" layoutY="153.0" text="Decision:" />
+      <Label layoutX="47.0" layoutY="62.0" text="Select Review:" textFill="#d30d69" />
+      <Button layoutX="162.0" layoutY="102.0" mnemonicParsing="false" onAction="#LoadButtonOA" prefHeight="25.0" prefWidth="73.0" text="Load" textFill="#d30d69" />
+      <Label layoutX="57.0" layoutY="153.0" text="Decision:" textFill="#d30d69" />
       <ComboBox fx:id="decisionCB" layoutX="130.0" layoutY="149.0" prefWidth="150.0" />
-      <Label layoutX="60.0" layoutY="212.0" text="Remarks:" />
+      <Label layoutX="60.0" layoutY="212.0" text="Remarks:" textFill="#d30d69" />
       <TextArea fx:id="remarksTA" layoutX="130.0" layoutY="212.0" prefHeight="159.0" prefWidth="369.0" />
-      <Button layoutX="252.0" layoutY="395.0" mnemonicParsing="false" onAction="#UpdateButtonOA" prefHeight="25.0" prefWidth="91.0" text="Update" />
-      <Label fx:id="updateReviewLabel" layoutX="246.0" layoutY="14.0" prefHeight="27.0" prefWidth="137.0" text="Update com.example.group_project.WelfareOfficer.Model.Review">
+      <Button layoutX="246.0" layoutY="418.0" mnemonicParsing="false" onAction="#UpdateButtonOA" prefHeight="25.0" prefWidth="91.0" text="Update" textFill="#d30d69" />
+      <Label fx:id="updateReviewLabel" layoutX="246.0" layoutY="14.0" prefHeight="27.0" prefWidth="137.0" text="Update Review" textFill="#d30d69">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
       </Label>
+      <ComboBox fx:id="selectReviewCB" layoutX="132.0" layoutY="58.0" prefWidth="150.0" />
+      <Label fx:id="errorLabel" layoutX="225.0" layoutY="385.0" prefHeight="27.0" prefWidth="150.0" text="&quot;Decision cannot be empty&quot;" textFill="#d30d69" />
    </children>
 </AnchorPane>

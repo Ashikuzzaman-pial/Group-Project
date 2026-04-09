@@ -8,8 +8,6 @@ public class VerifyEmployeeController
 {
 
     @javafx.fxml.FXML
-    private Label currentStatusLabel;
-    @javafx.fxml.FXML
     private Label verifyEmployeeLabel;
     @javafx.fxml.FXML
     private Label employeeIDLabel;
@@ -21,6 +19,12 @@ public class VerifyEmployeeController
     private ComboBox selectEmployeeCB;
     @javafx.fxml.FXML
     private AnchorPane mainPane;
+    @javafx.fxml.FXML
+    private Label eligibilityStatusLabel;
+    @javafx.fxml.FXML
+    private Label programCriteriaLabel;
+    @javafx.fxml.FXML
+    private Label employeeNotEligibleLabel;
 
     @javafx.fxml.FXML
     public void initialize() {

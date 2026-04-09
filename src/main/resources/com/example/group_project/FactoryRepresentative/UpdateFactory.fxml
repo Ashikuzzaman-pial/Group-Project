@@ -10,23 +10,23 @@
 
 <AnchorPane fx:id="mainPane" prefHeight="420.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.group_project.FactoryRepresentative.Controller.UpdateFactoryController">
    <children>
-      <Label fx:id="updateFactoryProfileLabel" layoutX="205.0" layoutY="22.0" text="Update com.example.group_project.FactoryRepresentative.Model.Factory Profile">
+      <Label fx:id="updateFactoryProfileLabel" layoutX="233.0" layoutY="20.0" text="Update Factory" textFill="#d30d69">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
       </Label>
       <TableView fx:id="tableViewTV" layoutX="85.0" layoutY="59.0" prefHeight="120.0" prefWidth="432.0">
         <columns>
-          <TableColumn fx:id="factoryNameTC" prefWidth="132.0" text="com.example.group_project.FactoryRepresentative.Model.Factory Name" />
+          <TableColumn fx:id="factoryNameTC" prefWidth="132.0" text="Factory Name" />
           <TableColumn fx:id="addressTC" prefWidth="151.0" text="Address" />
             <TableColumn fx:id="contactTC" minWidth="0.0" prefWidth="148.0" text="Contact" />
         </columns>
       </TableView>
-      <Button layoutX="239.0" layoutY="199.0" mnemonicParsing="false" onAction="#editSelectedButtonOA" prefHeight="27.0" prefWidth="117.0" text="Edit Selected" />
-      <Label layoutX="181.0" layoutY="248.0" text="com.example.group_project.FactoryRepresentative.Model.Factory Name:" />
-      <Label layoutX="181.0" layoutY="278.0" text="Address:" />
-      <Label layoutX="182.0" layoutY="311.0" text="Contact:" />
-      <Button layoutX="242.0" layoutY="354.0" mnemonicParsing="false" onAction="#updateButtonOA" prefHeight="27.0" prefWidth="117.0" text="Update" />
+      <Button layoutX="239.0" layoutY="199.0" mnemonicParsing="false" onAction="#editSelectedButtonOA" prefHeight="27.0" prefWidth="117.0" text="Edit Selected" textFill="#d30d69" />
+      <Label layoutX="181.0" layoutY="248.0" text="Factory Name:" textFill="#d30d69" />
+      <Label layoutX="181.0" layoutY="278.0" text="Address:" textFill="#d30d69" />
+      <Label layoutX="182.0" layoutY="311.0" text="Contact:" textFill="#d30d69" />
+      <Button layoutX="242.0" layoutY="354.0" mnemonicParsing="false" onAction="#updateButtonOA" prefHeight="27.0" prefWidth="117.0" text="Update" textFill="#d30d69" />
       <TextField fx:id="factoryNameTF" layoutX="273.0" layoutY="244.0" />
       <TextField fx:id="addressTF" layoutX="273.0" layoutY="274.0" />
       <TextField fx:id="contactTF" layoutX="273.0" layoutY="307.0" />

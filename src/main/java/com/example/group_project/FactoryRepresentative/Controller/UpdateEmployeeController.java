@@ -7,17 +7,7 @@ import javafx.scene.layout.AnchorPane;
 public class UpdateEmployeeController
 {
     @javafx.fxml.FXML
-    private TableColumn contactTC;
-    @javafx.fxml.FXML
-    private TableColumn designationTC;
-    @javafx.fxml.FXML
     private TextField nameTF;
-    @javafx.fxml.FXML
-    private TableColumn nameTC;
-    @javafx.fxml.FXML
-    private TableView tableViewTV;
-    @javafx.fxml.FXML
-    private TableColumn iDTC;
     @javafx.fxml.FXML
     private ComboBox factoryCB;
     @javafx.fxml.FXML
@@ -28,12 +18,18 @@ public class UpdateEmployeeController
     private TextField designationTF;
     @javafx.fxml.FXML
     private AnchorPane mainPane;
+    @javafx.fxml.FXML
+    private Label errorLabel;
+    @javafx.fxml.FXML
+    private Label employeeIdDisplayLabel;
+    @javafx.fxml.FXML
+    private ComboBox selectEmployee;
 
     @javafx.fxml.FXML
     public void initialize() {
     }
 
-    @javafx.fxml.FXML
+    @Deprecated
     public void ediitButtonOA(ActionEvent actionEvent) {
     }
 

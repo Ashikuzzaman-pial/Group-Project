@@ -3,36 +3,29 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.control.TableColumn?>
-<?import javafx.scene.control.TableView?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
 <AnchorPane fx:id="mainPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.group_project.FactoryRepresentative.Controller.UpdateEmployeeController">
    <children>
-      <Label fx:id="updateEmployeeLabel" layoutX="226.0" layoutY="24.0" text="Update com.example.group_project.FactoryRepresentative.Model.Employee">
+      <Label fx:id="updateEmployeeLabel" layoutX="226.0" layoutY="24.0" text="Update Employee" textFill="#d30d69">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
       </Label>
-      <TableView fx:id="tableViewTV" layoutX="81.0" layoutY="61.0" prefHeight="155.0" prefWidth="439.0">
-        <columns>
-          <TableColumn fx:id="iDTC" prefWidth="109.0" text="ID" />
-          <TableColumn fx:id="nameTC" prefWidth="105.0" text="Name" />
-            <TableColumn fx:id="contactTC" prefWidth="111.0" text="Contact" />
-            <TableColumn fx:id="designationTC" prefWidth="113.0" text="Designation" />
-        </columns>
-      </TableView>
-      <Button layoutX="253.0" layoutY="226.0" mnemonicParsing="false" onAction="#ediitButtonOA" prefHeight="33.0" prefWidth="64.0" text="Edit" />
-      <Label layoutX="60.0" layoutY="273.0" text="Name:" />
-      <Label layoutX="60.0" layoutY="304.0" text="Contact:" />
-      <Label layoutX="341.0" layoutY="273.0" text="Desiganation:" />
-      <Label layoutX="341.0" layoutY="304.0" text="com.example.group_project.Factory:" />
-      <Button layoutX="253.0" layoutY="342.0" mnemonicParsing="false" onAction="#updateButtonOA" prefHeight="33.0" prefWidth="64.0" text="Update" />
-      <TextField fx:id="nameTF" layoutX="118.0" layoutY="269.0" prefHeight="25.0" prefWidth="121.0" />
-      <TextField fx:id="contactTF" layoutX="118.0" layoutY="300.0" prefHeight="25.0" prefWidth="121.0" />
-      <TextField fx:id="designationTF" layoutX="423.0" layoutY="269.0" prefHeight="25.0" prefWidth="121.0" />
-      <ComboBox fx:id="factoryCB" layoutX="423.0" layoutY="300.0" prefHeight="25.0" prefWidth="121.0" />
+      <Label layoutX="229.0" layoutY="158.0" text="Name:" textFill="#d30d69" />
+      <Label layoutX="220.0" layoutY="189.0" prefHeight="17.0" prefWidth="49.0" text="Contact:" textFill="#d30d69" />
+      <Label layoutX="192.0" layoutY="223.0" prefHeight="17.0" prefWidth="76.0" text="Desiganation:" textFill="#d30d69" />
+      <Label layoutX="219.0" layoutY="259.0" prefHeight="17.0" prefWidth="49.0" text="Factory:" textFill="#d30d69" />
+      <Button layoutX="286.0" layoutY="337.0" mnemonicParsing="false" onAction="#updateButtonOA" prefHeight="33.0" prefWidth="64.0" text="Update" textFill="#d30d69" />
+      <TextField fx:id="nameTF" layoutX="273.0" layoutY="154.0" prefHeight="25.0" prefWidth="121.0" />
+      <TextField fx:id="contactTF" layoutX="273.0" layoutY="185.0" prefHeight="25.0" prefWidth="121.0" />
+      <TextField fx:id="designationTF" layoutX="273.0" layoutY="219.0" prefHeight="25.0" prefWidth="121.0" />
+      <ComboBox fx:id="factoryCB" layoutX="273.0" layoutY="255.0" prefHeight="25.0" prefWidth="121.0" />
+      <Label layoutX="188.0" layoutY="69.0" text="Select Employee:" textFill="#d30d69" />
+      <ComboBox fx:id="selectEmployee" layoutX="294.0" layoutY="65.0" prefHeight="25.0" prefWidth="121.0" />
+      <Label fx:id="employeeIdDisplayLabel" layoutX="247.0" layoutY="112.0" text="Employee ID Display" textFill="#d30d69" />
+      <Label fx:id="errorLabel" layoutX="231.0" layoutY="303.0" text="Required fields cannot be empty" textFill="#d30d69" />
    </children>
 </AnchorPane>

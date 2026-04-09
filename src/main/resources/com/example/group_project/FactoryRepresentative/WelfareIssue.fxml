@@ -14,10 +14,11 @@
             <Font name="System Bold" size="18.0" />
          </font>
       </Label>
-      <Label layoutX="179.0" layoutY="65.0" text="Select Employee:" />
-      <Label layoutX="179.0" layoutY="107.0" text="Isuue:" />
+      <Label layoutX="179.0" layoutY="65.0" text="Select Employee:" textFill="#d30d69" />
+      <Label layoutX="179.0" layoutY="107.0" text="Isuue:" textFill="#d30d69" />
       <ComboBox fx:id="selectEmployeeCB" layoutX="277.0" layoutY="61.0" prefWidth="150.0" />
       <TextArea fx:id="issueTextArea" layoutX="232.0" layoutY="107.0" prefHeight="200.0" prefWidth="200.0" />
-      <Button layoutX="266.0" layoutY="329.0" mnemonicParsing="false" onAction="#submitButtonOA" prefHeight="38.0" prefWidth="66.0" text="Submit" />
+      <Button layoutX="299.0" layoutY="348.0" mnemonicParsing="false" onAction="#submitButtonOA" prefHeight="38.0" prefWidth="66.0" text="Submit" textFill="#d30d69" />
+      <Label fx:id="errorLabel" layoutX="241.0" layoutY="320.0" text="Issue description cannot be empty" textFill="#d30d69" />
    </children>
 </AnchorPane>
