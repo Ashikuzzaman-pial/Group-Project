@@ -6,6 +6,20 @@
   <component name="ChangeListManager">
     <list default="true" id="3db953d5-9085-4c20-b740-26d044c1a1d4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/group_project/FinanceOfficer/Controller/ViewFundListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/FinanceOfficer/Controller/ViewFundListController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/group_project/TrainingOperator/Controller/AddNewTrainingSessionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/TrainingOperator/Controller/AddNewTrainingSessionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/group_project/TrainingOperator/Controller/DeleteTrainingSessionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/TrainingOperator/Controller/DeleteTrainingSessionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/group_project/TrainingOperator/Controller/RegisterTrainingSessionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/TrainingOperator/Controller/RegisterTrainingSessionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/group_project/TrainingOperator/Controller/SendTrainingNotificationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/TrainingOperator/Controller/SendTrainingNotificationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/group_project/TrainingOperator/Controller/TrainingSessionListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/TrainingOperator/Controller/TrainingSessionListController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/group_project/TrainingOperator/Controller/UpdateTraningController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/TrainingOperator/Controller/UpdateTraningController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/group_project/TrainingOperator/Controller/ViewRegisteredEmployeeListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/TrainingOperator/Controller/ViewRegisteredEmployeeListController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/TrainingOperator/AddNewTrainingSessionView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/TrainingOperator/AddNewTrainingSessionView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/TrainingOperator/RegisterTrainingSessionView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/TrainingOperator/RegisterTrainingSessionView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/group_project/TrainingOperator/TrainingSessionListView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/group_project/TrainingOperator/TrainingSessionListView.fxml" afterDir="false" />
+>>>>>>> f07ec9957aa75291b237086c864408a424d8095c
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +36,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="3C9kSoW1usyizQ1sYd74ukMylZO" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -37,13 +55,22 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Ladly Khan/IdeaProjects/GROUP_PROJECT/Group-Project/src/main/java/com/example/group_project/GeneralMember/Model"
+    "last_opened_file_path": "C:/Users/Ladly Khan/IdeaProjects/GROUP_PROJECT/Group-Project/src/main/java/com/example/group_project/GeneralMember/Model",
+    "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Ladly Khan\IdeaProjects\GROUP_PROJECT\Group-Project\src\main\java\com\example\group_project\GeneralMember\Model" />
     </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.30387.90" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.30387.90" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -55,6 +82,7 @@
     </task>
     <servers />
   </component>
+<<<<<<< HEAD
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -65,5 +93,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+=======
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+>>>>>>> f07ec9957aa75291b237086c864408a424d8095c
   </component>
 </project>
