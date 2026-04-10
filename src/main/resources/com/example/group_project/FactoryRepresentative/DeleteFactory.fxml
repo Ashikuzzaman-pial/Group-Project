@@ -15,7 +15,7 @@
       </Label>
       <Button layoutX="259.0" layoutY="309.0" mnemonicParsing="false" onAction="#deleteButtonOA" prefHeight="34.0" prefWidth="83.0" text="Delete" textFill="#d30d69" />
       <Label layoutX="180.0" layoutY="192.0" text="Select Factory:" textFill="#d30d69" />
-      <ComboBox layoutX="271.0" layoutY="188.0" prefWidth="150.0" />
+      <ComboBox fx:id="selectFactoryCB" layoutX="271.0" layoutY="188.0" prefWidth="150.0" />
       <Button layoutX="526.0" layoutY="343.0" mnemonicParsing="false" onAction="#backButtonOA" prefHeight="25.0" prefWidth="48.0" text="Back" textFill="#d30d69" />
    </children>
 </AnchorPane>

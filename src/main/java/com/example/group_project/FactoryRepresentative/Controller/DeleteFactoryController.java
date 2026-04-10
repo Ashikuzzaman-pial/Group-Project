@@ -12,13 +12,21 @@ public class DeleteFactoryController
     private Label deleteFactoryLabel;
     @javafx.fxml.FXML
     private AnchorPane mainPane;
+    @javafx.fxml.FXML
+    private ComboBox<String> selectFactoryCB;
 
     @javafx.fxml.FXML
     public void initialize() {
+        selectFactoryCB.getItems().setAll("Factory A", "Factory B", "Factory C");
     }
 
     @javafx.fxml.FXML
     public void deleteButtonOA(ActionEvent actionEvent) {
+        String selected = selectFactoryCB.getValue();
+
+        if (selected != null) {
+            selectFactoryCB.getItems().remove(selected);
+        }
     }
 
     @javafx.fxml.FXML

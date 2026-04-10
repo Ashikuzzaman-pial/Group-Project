@@ -21,7 +21,7 @@ public class DeleteEmployeeController
 
     @javafx.fxml.FXML
     public void initialize() {
-        selectEmployeeCB.getItems().setAll("Rahim", "Karim");
+        selectEmployeeCB.getItems().setAll("Ladly", "Peal");
     }
 
     @javafx.fxml.FXML

@@ -1,20 +1,21 @@
 package com.example.group_project.FactoryRepresentative.Model;
 
 public class Factory {
-    private int id;
+
     private String name;
-    private String location;
+    private String address;
+    private String contact;
 
     public Factory() {
     }
 
-    public Factory(int id, String name, String location) {
-        this.id = id;
+    public Factory(String name, String address, String contact) {
         this.name = name;
-        this.location = location;
+        this.address = address;
+        this.contact = contact;
     }
 
-    public int getId() { return id; }
-    public String getName() { return name; }
-    public String getLocation() { return location; }
+    public String getName() {
+        return name;
+    }
 }
