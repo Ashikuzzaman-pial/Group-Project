@@ -20,10 +20,11 @@ public class ViewFundListController
     @javafx.fxml.FXML
     public void initialize() {
         tableView.getItems().clear();
-        //tableView.getItems().addAll(FinanceOfficer.viewFundList());
+        //tableView.getItems().addAll(Fund.viewFundList());
     }
 
     @javafx.fxml.FXML
     public void refreshOnActionButton(ActionEvent actionEvent) {
+       ;
     }
 }
