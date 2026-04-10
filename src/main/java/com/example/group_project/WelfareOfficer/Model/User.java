@@ -3,7 +3,7 @@ package com.example.group_project.WelfareOfficer.Model;
 public class User {
     private int id;
     private String name;
-    private String role; // OFFICER or REPRESENTATIVE
+    private String role;
     private String email;
     private String password;
 
