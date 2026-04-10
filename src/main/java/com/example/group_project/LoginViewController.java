@@ -5,6 +5,7 @@ import javafx.event.Event;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
+import javafx.scene.Scene;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.Label;
 import javafx.scene.layout.AnchorPane;
@@ -31,21 +32,31 @@ public class LoginViewController
         String selectedUser = userCB.getValue();
         if (selectedUser == null) {
             messageLabel.setText("Please select a user!");
+            return;
         }
         try{
             if (selectedUser.equals("President")) {
-                FXMLLoader.load(getClass().getResource("/com/example/group_project/President/PresidentDashboard.fxml"));
+                FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/group_project/President/PresidentDashboard.fxml"));
+                Scene scene = new Scene(loader.load());
+                Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
+                stage.setScene(scene);
             } else if (selectedUser.equals("General Member")) {
-                FXMLLoader.load(getClass().getResource("/com/example/group_project/GeneralMember/GeneralMemberDashboard.fxml"));
+                FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/group_project/GeneralMember/GeneralMemberDashboard.fxml"));
+                Scene scene = new Scene(loader.load());
+                Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
+                stage.setScene(scene);
             } else if (selectedUser.equals("Welfare Officer")) {
-                FXMLLoader.load(getClass().getResource("/com/example/group_project/WelfareOfficer/WelfareOfficerDashboard.fxml"));
+                FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/group_project/WelfareOfficer/WelfareOfficerDashboard.fxml"));
+                Scene scene = new Scene(loader.load());
+                Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
+                stage.setScene(scene);
             } else if (selectedUser.equals("Factory Representative")) {
-                FXMLLoader.load(getClass().getResource("/com/example/group_project/FactoryRepresentative/FactoryRepresentativeDashboard.fxml"));
+                FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/group_project/FactoryRepresentative/FactoryRepresentativeDashboard.fxml"));
+                Scene scene = new Scene(loader.load());
+                Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
+                stage.setScene(scene);
             }
 
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/com/example/group_project/LoginView.fxml"));
-            Node node = fxmlLoader.load();
-            mainPane.getChildren().setAll(node);
 
         }
         catch (Exception e){

@@ -60,6 +60,16 @@ public class FactoryRepresentativeDashboardController
 
     @javafx.fxml.FXML
     public void logoutButtonOA(ActionEvent actionEvent) {
+
+        try{
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/com/example/group_project/LoginView.fxml"));
+            Node node = fxmlLoader.load();
+            mainPane.getChildren().setAll(node);
+        }
+        catch(Exception e){
+            e.printStackTrace();
+
+        }
     }
 
     @javafx.fxml.FXML
