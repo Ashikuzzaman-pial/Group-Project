@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3db953d5-9085-4c20-b740-26d044c1a1d4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/GeneralMember/Model/Inquiry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/GeneralMember/Model/SystemNotification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/President/Model/ClarificationRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/President/Model/ReportData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/President/Model/WelfareProgram.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/group_project/WelfareOfficer/Model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/WelfareOfficer/Model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/group_project/WelfareOfficer/Model/WelfareApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/group_project/WelfareOfficer/Model/WelfareApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,5 +54,16 @@
       <updated>1775805179255</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/group_project/TrainingOperator/Controller/DeleteTrainingSessionController.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
