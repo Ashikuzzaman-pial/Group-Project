@@ -30,5 +30,6 @@
       <TextField fx:id="factoryNameTF" layoutX="273.0" layoutY="244.0" />
       <TextField fx:id="addressTF" layoutX="273.0" layoutY="274.0" />
       <TextField fx:id="contactTF" layoutX="273.0" layoutY="307.0" />
+      <Button layoutX="517.0" layoutY="355.0" mnemonicParsing="false" onAction="#backButtonOA" prefHeight="25.0" prefWidth="48.0" text="Back" textFill="#d30d69" />
    </children>
 </AnchorPane>

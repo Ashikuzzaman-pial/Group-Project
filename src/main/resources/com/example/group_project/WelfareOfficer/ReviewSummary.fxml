@@ -29,5 +29,6 @@
             <TableColumn fx:id="dateTC" prefWidth="103.0" text="Date" />
         </columns>
       </TableView>
+      <Button layoutX="530.0" layoutY="350.0" mnemonicParsing="false" onAction="#backButtonOA" prefHeight="25.0" prefWidth="48.0" text="Back" textFill="#d30d69" />
    </children>
 </AnchorPane>

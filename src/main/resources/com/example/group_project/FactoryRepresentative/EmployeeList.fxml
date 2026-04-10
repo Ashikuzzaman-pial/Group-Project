@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TableColumn?>
@@ -25,5 +26,6 @@
       </TableView>
       <ComboBox fx:id="selectFactoryCB" layoutX="269.0" layoutY="72.0" prefWidth="150.0" />
       <Label fx:id="noemployeesfoundLabel" layoutX="238.0" layoutY="338.0" prefHeight="17.0" prefWidth="123.0" text="No employees found" textFill="#d30d69" />
+      <Button layoutX="538.0" layoutY="334.0" mnemonicParsing="false" onAction="#backButtonOA" prefHeight="25.0" prefWidth="48.0" text="Back" textFill="#d30d69" />
    </children>
 </AnchorPane>

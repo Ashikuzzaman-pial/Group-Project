@@ -18,7 +18,7 @@ public class GeneralMemberDashBoardController
     public void viewApplicationHistoryButtonOA(ActionEvent actionEvent) {
 
         try{
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("ViewApplicationHistory.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/com/example/group_project/GeneralMember/ViewApplicationHistory.fxml"));
             Node node = fxmlLoader.load();
             mainPane.getChildren().setAll(node);
         }
@@ -32,7 +32,7 @@ public class GeneralMemberDashBoardController
     public void updateApplicationButtonOA(ActionEvent actionEvent) {
 
         try{
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("UpdateApplication.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/com/example/group_project/GeneralMember/UpdateApplication.fxml"));
             Node node = fxmlLoader.load();
             mainPane.getChildren().setAll(node);
         }
@@ -46,7 +46,7 @@ public class GeneralMemberDashBoardController
     public void submitApplicationButtonOA(ActionEvent actionEvent) {
 
         try{
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("SubmitApplication.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/com/example/group_project/GeneralMember/SubmitApplication.fxml"));
             Node node = fxmlLoader.load();
             mainPane.getChildren().setAll(node);
         }
@@ -60,7 +60,7 @@ public class GeneralMemberDashBoardController
     public void applicationStatusButtonOA(ActionEvent actionEvent) {
 
         try{
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("ApplicationStatus.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/com/example/group_project/GeneralMember/ApplicationStatus.fxml"));
             Node node = fxmlLoader.load();
             mainPane.getChildren().setAll(node);
         }
@@ -74,7 +74,7 @@ public class GeneralMemberDashBoardController
     public void selectProgramButtonOA(ActionEvent actionEvent) {
 
         try{
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("SelectProgram.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/com/example/group_project/GeneralMember/SelectProgram.fxml"));
             Node node = fxmlLoader.load();
             mainPane.getChildren().setAll(node);
         }
@@ -88,7 +88,7 @@ public class GeneralMemberDashBoardController
     public void cancelApplicationButtonOA(ActionEvent actionEvent) {
 
         try{
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("CancelApplication.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/com/example/group_project/GeneralMember/CancelApplication.fxml"));
             Node node = fxmlLoader.load();
             mainPane.getChildren().setAll(node);
         }
@@ -102,7 +102,7 @@ public class GeneralMemberDashBoardController
     public void sendInquiryButtonOA(ActionEvent actionEvent) {
 
         try{
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("SendInquiry.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/com/example/group_project/GeneralMember/SendInquiry.fxml"));
             Node node = fxmlLoader.load();
             mainPane.getChildren().setAll(node);
         }
@@ -116,7 +116,7 @@ public class GeneralMemberDashBoardController
     public void viewProgramButtonOA(ActionEvent actionEvent) {
 
         try{
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("ViewProgram.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/com/example/group_project/GeneralMember/ViewProgram.fxml"));
             Node node = fxmlLoader.load();
             mainPane.getChildren().setAll(node);
         }

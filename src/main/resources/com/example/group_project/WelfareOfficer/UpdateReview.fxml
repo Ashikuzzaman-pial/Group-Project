@@ -23,5 +23,6 @@
       </Label>
       <ComboBox fx:id="selectReviewCB" layoutX="132.0" layoutY="58.0" prefWidth="150.0" />
       <Label fx:id="errorLabel" layoutX="225.0" layoutY="385.0" prefHeight="27.0" prefWidth="150.0" text="&quot;Decision cannot be empty&quot;" textFill="#d30d69" />
+      <Button layoutX="534.0" layoutY="385.0" mnemonicParsing="false" onAction="#backButtonOA" prefHeight="25.0" prefWidth="48.0" text="Back" textFill="#d30d69" />
    </children>
 </AnchorPane>

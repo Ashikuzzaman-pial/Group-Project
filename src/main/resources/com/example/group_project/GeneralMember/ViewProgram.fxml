@@ -7,8 +7,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.group_project.GeneralMember.Controller.ViewProgramController">
+<AnchorPane fx:id="mainPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.group_project.GeneralMember.Controller.ViewProgramController">
    <children>
       <Label layoutX="239.0" layoutY="14.0" text="Welfare Program">
          <font>
@@ -22,5 +21,6 @@
         </columns>
       </TableView>
       <Button layoutX="260.0" layoutY="303.0" mnemonicParsing="false" onAction="#ShowButtonOA" prefHeight="35.0" prefWidth="77.0" text="Show" />
+      <Button layoutX="517.0" layoutY="355.0" mnemonicParsing="false" onAction="#backButtonOA" prefHeight="33.0" prefWidth="71.0" text="Back" />
    </children>
 </AnchorPane>

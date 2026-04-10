@@ -22,5 +22,6 @@
       <Button layoutX="265.0" layoutY="279.0" mnemonicParsing="false" onAction="#verifyButtonOA" prefHeight="38.0" prefWidth="68.0" text="Verify" textFill="#d30d69" />
       <Label fx:id="programCriteriaLabel" layoutX="256.0" layoutY="205.0" text="Program Criteria" textFill="#d30d69" />
       <Label fx:id="eligibilityStatusLabel" layoutX="257.0" layoutY="244.0" text="Eligibility Status" textFill="#d30d69" />
+      <Button layoutX="530.0" layoutY="326.0" mnemonicParsing="false" onAction="#backButtonOA" prefHeight="25.0" prefWidth="48.0" text="Back" textFill="#d30d69" />
    </children>
 </AnchorPane>

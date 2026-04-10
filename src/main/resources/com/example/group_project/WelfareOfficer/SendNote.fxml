@@ -20,5 +20,6 @@
       <TextArea fx:id="messageTA" layoutX="206.0" layoutY="135.0" prefHeight="127.0" prefWidth="200.0" />
       <Button layoutX="265.0" layoutY="315.0" mnemonicParsing="false" onAction="#sendButtonOA" prefHeight="33.0" prefWidth="71.0" text="Send" textFill="#d30d69" />
       <Label fx:id="errorLabel" layoutX="231.0" layoutY="281.0" text="&quot;Message cannot be empty&quot;" textFill="#d30d69" />
+      <Button layoutX="525.0" layoutY="319.0" mnemonicParsing="false" onAction="#backButtonOA" prefHeight="25.0" prefWidth="48.0" text="Back" textFill="#d30d69" />
    </children>
 </AnchorPane>

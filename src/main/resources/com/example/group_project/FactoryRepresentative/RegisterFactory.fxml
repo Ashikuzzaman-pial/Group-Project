@@ -20,5 +20,6 @@
       <Label layoutX="196.0" layoutY="179.0" text="Contact No:" textFill="#d30d69" />
       <TextField fx:id="contactNoTF" layoutX="274.0" layoutY="175.0" />
       <Button layoutX="250.0" layoutY="227.0" mnemonicParsing="false" onAction="#submitButtonOA" prefHeight="37.0" prefWidth="86.0" text="Submit" textFill="#d30d69" />
+      <Button layoutX="513.0" layoutY="251.0" mnemonicParsing="false" onAction="#backButtonOA" prefHeight="25.0" prefWidth="48.0" text="Back" textFill="#d30d69" />
    </children>
 </AnchorPane>

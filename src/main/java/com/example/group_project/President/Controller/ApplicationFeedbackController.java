@@ -47,7 +47,7 @@ public class ApplicationFeedbackController
     public void backButtonOA(ActionEvent actionEvent) {
 
         try{
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("PresidentDashBoard.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/com/example/group_project/President/PresidentDashboard.fxml"));
             Node node = fxmlLoader.load();
             mainPane.getChildren().setAll(node);
         }

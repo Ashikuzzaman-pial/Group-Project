@@ -16,5 +16,6 @@
       <Button layoutX="244.0" layoutY="299.0" mnemonicParsing="false" onAction="#deleteButtonOA" prefHeight="37.0" prefWidth="67.0" text="Delete" textFill="#d30d69" />
       <Label layoutX="173.0" layoutY="167.0" text="Select Employee:" textFill="#d30d69" />
       <ComboBox fx:id="selectEmployeeCB" layoutX="277.0" layoutY="163.0" prefWidth="150.0" />
+      <Button layoutX="523.0" layoutY="323.0" mnemonicParsing="false" onAction="#backButtonOA" prefHeight="25.0" prefWidth="48.0" text="Back" textFill="#d30d69" />
    </children>
 </AnchorPane>

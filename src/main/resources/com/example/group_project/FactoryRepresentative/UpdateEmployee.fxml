@@ -27,5 +27,6 @@
       <ComboBox fx:id="selectEmployee" layoutX="294.0" layoutY="65.0" prefHeight="25.0" prefWidth="121.0" />
       <Label fx:id="employeeIdDisplayLabel" layoutX="247.0" layoutY="112.0" text="Employee ID Display" textFill="#d30d69" />
       <Label fx:id="errorLabel" layoutX="231.0" layoutY="303.0" text="Required fields cannot be empty" textFill="#d30d69" />
+      <Button layoutX="527.0" layoutY="341.0" mnemonicParsing="false" onAction="#backButtonOA" prefHeight="25.0" prefWidth="48.0" text="Back" textFill="#d30d69" />
    </children>
 </AnchorPane>
