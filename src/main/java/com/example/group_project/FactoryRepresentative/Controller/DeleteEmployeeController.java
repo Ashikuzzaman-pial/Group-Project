@@ -1,5 +1,6 @@
 package com.example.group_project.FactoryRepresentative.Controller;
 
+import com.example.group_project.FactoryRepresentative.Model.Employee;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
@@ -16,10 +17,11 @@ public class DeleteEmployeeController
     @javafx.fxml.FXML
     private AnchorPane mainPane;
     @javafx.fxml.FXML
-    private ComboBox selectEmployeeCB;
+    private ComboBox<String> selectEmployeeCB;
 
     @javafx.fxml.FXML
     public void initialize() {
+        selectEmployeeCB.getItems().setAll("Rahim", "Karim");
     }
 
     @javafx.fxml.FXML

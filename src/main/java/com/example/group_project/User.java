@@ -1,4 +1,4 @@
-package com.example.group_project.WelfareOfficer.Model;
+package com.example.group_project;
 
 public class User {
     private int id;

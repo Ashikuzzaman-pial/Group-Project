@@ -1,5 +1,7 @@
 package com.example.group_project.WelfareOfficer.Model;
 
+import com.example.group_project.User;
+
 public class Review {
     private int id;
     private User officer;
