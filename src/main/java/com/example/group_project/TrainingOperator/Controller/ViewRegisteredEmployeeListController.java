@@ -29,8 +29,8 @@ public class ViewRegisteredEmployeeListController
     @javafx.fxml.FXML
     public void viewActionOnButton(ActionEvent actionEvent) {
         //tableView.getItems().addAll(Fund.viewFundList());
-        tableView.getItems().clear();
-        tableView.getItems().addAll(Registration);
+           // tableView.getItems().clear();
+           //tableView.getItems().addAll(Registration);
         //tableView.getItems().clear();
         //        tableView.getItems().addAll(TrainingSession);
         //    }
