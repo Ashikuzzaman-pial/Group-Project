@@ -1,6 +1,8 @@
 package com.example.group_project.President.Model;
 
-public class WelfareProgram {
+import java.io.Serializable;
+
+public class WelfareProgram implements Serializable {
     private int programID;
     private String programName;
     private String description;

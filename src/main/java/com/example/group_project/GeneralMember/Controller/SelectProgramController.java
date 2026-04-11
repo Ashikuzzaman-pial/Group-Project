@@ -14,12 +14,14 @@ public class SelectProgramController
     @javafx.fxml.FXML
     private TextField DescriptionTA;
     @javafx.fxml.FXML
-    private ComboBox ProgramsCB;
+    private ComboBox<String> ProgramsCB;
     @javafx.fxml.FXML
     private AnchorPane mainPane;
 
     @javafx.fxml.FXML
     public void initialize() {
+
+        ProgramsCB.getItems().addAll("Medical Support", "Education Support", "Emergency Fund", "General Aid");
     }
 
     @javafx.fxml.FXML

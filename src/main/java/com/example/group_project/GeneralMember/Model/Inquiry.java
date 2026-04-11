@@ -1,8 +1,9 @@
 package com.example.group_project.GeneralMember.Model;
 
+import java.io.Serializable;
 import java.time.LocalDateTime;
 
-public class Inquiry {
+public class Inquiry implements Serializable {
     private int inquiryID;
     private String senderID;
     private String subject;

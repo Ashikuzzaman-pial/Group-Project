@@ -12,7 +12,7 @@ public class ViewReportController
     @javafx.fxml.FXML
     private Label TotalApplicationApproveRejectLabel;
     @javafx.fxml.FXML
-    private ComboBox TimeCB;
+    private ComboBox<String> TimeCB;
     @javafx.fxml.FXML
     private AnchorPane mainPane;
 
