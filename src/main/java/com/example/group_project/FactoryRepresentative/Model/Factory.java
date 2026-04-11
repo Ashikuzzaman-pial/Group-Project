@@ -1,6 +1,8 @@
 package com.example.group_project.FactoryRepresentative.Model;
 
-public class Factory {
+import java.io.Serializable;
+
+public class Factory implements Serializable {
 
     private String name;
     private String address;
@@ -17,5 +19,13 @@ public class Factory {
 
     public String getName() {
         return name;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public String getContact() {
+        return contact;
     }
 }

@@ -1,6 +1,8 @@
 package com.example.group_project.FactoryRepresentative.Model;
 
-public class Employee {
+import java.io.Serializable;
+
+public class Employee implements Serializable {
     private int id;
     private String name;
     private String contact;

@@ -1,6 +1,9 @@
 package com.example.group_project;
 
-public class User {
+import java.io.Serializable;
+
+public class User implements Serializable {
+
     private int id;
     private String name;
     private String role;
