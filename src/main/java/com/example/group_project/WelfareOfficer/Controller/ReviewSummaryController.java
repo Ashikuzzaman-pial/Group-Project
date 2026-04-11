@@ -7,6 +7,8 @@ import javafx.scene.Node;
 import javafx.scene.control.*;
 import javafx.scene.layout.AnchorPane;
 
+import java.time.LocalDate;
+
 public class ReviewSummaryController
 {
     @javafx.fxml.FXML
@@ -16,9 +18,9 @@ public class ReviewSummaryController
     @javafx.fxml.FXML
     private TableView<Review> TableViewTV;
     @javafx.fxml.FXML
-    private TableColumn applicationIDTC;
+    private TableColumn<Review, Integer> applicationIDTC;
     @javafx.fxml.FXML
-    private TableColumn dateTC;
+    private TableColumn<Review,LocalDate> dateTC;
     @javafx.fxml.FXML
     private Label ReviewSummaryLabel;
     @javafx.fxml.FXML
@@ -26,9 +28,9 @@ public class ReviewSummaryController
     @javafx.fxml.FXML
     private AnchorPane mainPane;
     @javafx.fxml.FXML
-    private TableColumn remarksTC;
+    private TableColumn<Review, String> remarksTC;
     @javafx.fxml.FXML
-    private TableColumn reviewIDTC;
+    private TableColumn<Review, Integer> reviewIDTC;
 
     @javafx.fxml.FXML
     public void initialize() {
