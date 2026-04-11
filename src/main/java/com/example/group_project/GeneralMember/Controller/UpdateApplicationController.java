@@ -54,8 +54,8 @@ public class UpdateApplicationController
             int newAmount = Integer.parseInt(AmountTF.getText());
             String newDesc = DescriptionTA.getText();
 
-            selectedApp.setRequestedAmount(newAmount);
-            selectedApp.setDescription(newDesc);
+            //selectedApp.setRequestedAmount(newAmount);
+            //selectedApp.setDescription(newDesc);
 
             FileOutputStream fos = new FileOutputStream("Application.bin");
             ObjectOutputStream oos = new ObjectOutputStream(fos);
