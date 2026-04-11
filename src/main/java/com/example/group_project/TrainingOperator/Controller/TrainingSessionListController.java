@@ -36,7 +36,7 @@ public class TrainingSessionListController
     @javafx.fxml.FXML
     public void refreshActionOnButton(ActionEvent actionEvent){
         tableView.getItems().clear();
-        tableView.getItems().addAll(TrainingSession);
+        tableView.getItems().addAll(AddNewTrainingSessionController.trainingSessions);
     }
 
 

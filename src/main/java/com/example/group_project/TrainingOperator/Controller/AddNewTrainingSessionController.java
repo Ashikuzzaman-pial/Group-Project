@@ -19,12 +19,14 @@ public class AddNewTrainingSessionController
     @javafx.fxml.FXML
     private DatePicker datePicker;
 
+    public static ArrayList<TrainingSession> trainingSessions = new ArrayList<>();
+
+
     @javafx.fxml.FXML
     public void initialize() {
 
 
     }
-    ArrayList<TrainingSession> trainingSessions = new ArrayList<>();
     //ArrayList<Registration> registrationList = new ArrayList<>();
 
     @javafx.fxml.FXML
@@ -34,8 +36,9 @@ public class AddNewTrainingSessionController
         LocalDate date = datePicker.getValue();
         String time = txtTime.getText();
 
-        TrainingSession trainingSession = new TrainingSession(trainingId, trainingName, date, time);
+        TrainingSession newTrainingSession = new TrainingSession(trainingId, trainingName, date, time);
 
+        trainingSessions.add(newTrainingSession);
 
 
     }
