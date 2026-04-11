@@ -13,44 +13,35 @@ import java.util.ArrayList;
 public class DeleteEmployeeController {
 
     @javafx.fxml.FXML
+    private ComboBox<String> selectEmployeeCB;
+    @javafx.fxml.FXML
     private Label deleteEmployeeLabel;
     @javafx.fxml.FXML
     private AnchorPane mainPane;
-    @javafx.fxml.FXML
-    private ComboBox<Integer> selectEmployeeCB;
 
     private ArrayList<Employee> employeeList = new ArrayList<>();
 
     @javafx.fxml.FXML
     public void initialize() {
-
         loadEmployees();
-        selectEmployeeCB.getItems().clear();
-
-        for (Employee e : employeeList) {
-            selectEmployeeCB.getItems().add(e.getId());
-        }
     }
 
     private void loadEmployees() {
 
         File f = new File("Employee.bin");
-        FileInputStream fis;
-        ObjectInputStream ois;
-
-        if (!f.exists()) {
-            return;
-        }
+        if (!f.exists()) return;
 
         try {
-            fis = new FileInputStream(f);
-            ois = new ObjectInputStream(fis);
+            FileInputStream fis = new FileInputStream(f);
+            ObjectInputStream ois = new ObjectInputStream(fis);
+
             while (true) {
                 try {
                     Employee e = (Employee) ois.readObject();
                     employeeList.add(e);
-                }
-                catch (EOFException ex) {
+                    selectEmployeeCB.getItems().add(e.getName());
+
+                } catch (EOFException ex) {
                     break;
                 }
             }
@@ -65,15 +56,12 @@ public class DeleteEmployeeController {
     @javafx.fxml.FXML
     public void deleteButtonOA(ActionEvent actionEvent) {
 
-        Integer selectedId = selectEmployeeCB.getValue();
+        String selected = selectEmployeeCB.getValue();
 
-        if (selectedId == null) {
-            deleteEmployeeLabel.setText("Please select an employee ID!");
-            return;
-        }
+        if (selected == null) return;
 
         for (int i = 0; i < employeeList.size(); i++) {
-            if (employeeList.get(i).getId() == selectedId) {
+            if (employeeList.get(i).getName().equals(selected)) {
                 employeeList.remove(i);
                 break;
             }
@@ -88,20 +76,19 @@ public class DeleteEmployeeController {
             }
 
             oos.close();
-            deleteEmployeeLabel.setText("Employee deleted successfully");
 
-        }
-        catch (Exception e) {
+            deleteEmployeeLabel.setText("Employee Deleted");
+
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }
-
     @javafx.fxml.FXML
     public void backButtonOA(ActionEvent actionEvent) {
 
         try {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/group_project/FactoryRepresentative/FactoryRepresentativeDashboard.fxml"));
-            Node node = loader.load();
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/com/example/group_project/FactoryRepresentative/FactoryRepresentativeDashboard.fxml"));
+            Node node = fxmlLoader.load();
             mainPane.getChildren().setAll(node);
         }
         catch (Exception e) {

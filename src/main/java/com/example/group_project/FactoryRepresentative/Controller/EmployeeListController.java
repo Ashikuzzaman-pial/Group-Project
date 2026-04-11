@@ -9,10 +9,11 @@ import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.layout.AnchorPane;
 
 import java.io.*;
-import java.util.ArrayList;
 
 public class EmployeeListController {
 
+    @javafx.fxml.FXML
+    private TableView<Employee> tableViewTV;
     @javafx.fxml.FXML
     private TableColumn<Employee, Integer> idTC;
     @javafx.fxml.FXML
@@ -22,50 +23,54 @@ public class EmployeeListController {
     @javafx.fxml.FXML
     private TableColumn<Employee, String> designationTC;
     @javafx.fxml.FXML
-    private TableView<Employee> tableViewTV;
-    @javafx.fxml.FXML
     private ComboBox<String> selectFactoryCB;
-    @javafx.fxml.FXML
-    private Label employeeListLabel;
     @javafx.fxml.FXML
     private Label noemployeesfoundLabel;
     @javafx.fxml.FXML
     private AnchorPane mainPane;
 
-    private ArrayList<Employee> employeeList = new ArrayList<>();
-
     @javafx.fxml.FXML
     public void initialize() {
+
+        selectFactoryCB.getItems().setAll("Factory A", "Factory B", "Factory C");
 
         idTC.setCellValueFactory(new PropertyValueFactory<>("id"));
         nameTC.setCellValueFactory(new PropertyValueFactory<>("name"));
         contactTC.setCellValueFactory(new PropertyValueFactory<>("contact"));
         designationTC.setCellValueFactory(new PropertyValueFactory<>("designation"));
-
-        selectFactoryCB.getItems().addAll("Factory 1", "Factory 2", "Factory 3");
-
-        loadEmployees();
     }
 
-    private void loadEmployees() {
+    @javafx.fxml.FXML
+    public void showButtonOA(ActionEvent actionEvent) {
 
-        File f = new File("Employee.bin");
-        FileInputStream fis;
-        ObjectInputStream ois;
+        tableViewTV.getItems().clear();
+        String factory = selectFactoryCB.getValue();
 
-        if (!f.exists()) {
+        if (factory == null) {
+            noemployeesfoundLabel.setText("Select a factory");
             return;
         }
 
-        try {
+        File f = new File("Employee.bin");
+        boolean found = false;
 
-            fis = new FileInputStream(f);
-            ois = new ObjectInputStream(fis);
+        try {
+            if (!f.exists()) {
+                noemployeesfoundLabel.setText("No employees found");
+                return;
+            }
+
+            FileInputStream fis = new FileInputStream(f);
+            ObjectInputStream ois = new ObjectInputStream(fis);
 
             while (true) {
                 try {
                     Employee e = (Employee) ois.readObject();
-                    employeeList.add(e);
+
+                    if (e.getFactory().equals(factory)) {
+                        tableViewTV.getItems().add(e);
+                        found = true;
+                    }
                 }
                 catch (EOFException ex) {
                     break;
@@ -77,31 +82,10 @@ public class EmployeeListController {
         catch (Exception e) {
             e.printStackTrace();
         }
-    }
 
-    @javafx.fxml.FXML
-    public void showButtonOA(ActionEvent actionEvent) {
-
-        tableViewTV.getItems().clear();
-        noemployeesfoundLabel.setText("");
-
-        String selectedFactory = selectFactoryCB.getValue();
-
-        if (selectedFactory == null) {
-            employeeListLabel.setText("Please select a factory");
-            return;
-        }
-
-        for (Employee e : employeeList) {
-            if (e.getFactory().equals(selectedFactory)) {
-                tableViewTV.getItems().add(e);
-            }
-        }
-
-        if (tableViewTV.getItems().isEmpty()) {
-            noemployeesfoundLabel.setText("No employees found for selected factory!");
-        }
-        else {
+        if (!found) {
+            noemployeesfoundLabel.setText("No employees found for selected factory");
+        } else {
             noemployeesfoundLabel.setText("");
         }
     }
@@ -110,8 +94,8 @@ public class EmployeeListController {
     public void backButtonOA(ActionEvent actionEvent) {
 
         try {
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/com/example/group_project/FactoryRepresentative/FactoryRepresentativeDashboard.fxml"));
-            Node node = fxmlLoader.load();
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/group_project/FactoryRepresentative/FactoryRepresentativeDashboard.fxml"));
+            Node node = loader.load();
             mainPane.getChildren().setAll(node);
         }
         catch (Exception e) {
