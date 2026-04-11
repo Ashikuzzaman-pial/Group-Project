@@ -30,7 +30,7 @@ public class WelfareIssueController
 
     @javafx.fxml.FXML
     public void submitButtonOA(ActionEvent actionEvent) {
-        
+
         String employee = (String) selectEmployeeCB.getValue();
         String issue = issueTextArea.getText();
 
