@@ -1,5 +1,6 @@
 package com.example.group_project.WelfareOfficer.Controller;
 
+import com.example.group_project.FactoryRepresentative.Model.Employee;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
@@ -18,7 +19,7 @@ public class VerifyEmployeeController
     @javafx.fxml.FXML
     private Label programLabel;
     @javafx.fxml.FXML
-    private ComboBox selectEmployeeCB;
+    private ComboBox<Employee> selectEmployeeCB;
     @javafx.fxml.FXML
     private AnchorPane mainPane;
     @javafx.fxml.FXML

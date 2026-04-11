@@ -1,5 +1,6 @@
 package com.example.group_project.WelfareOfficer.Controller;
 
+import com.example.group_project.WelfareOfficer.Model.Review;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
@@ -9,11 +10,11 @@ import javafx.scene.layout.AnchorPane;
 public class ReviewSummaryController
 {
     @javafx.fxml.FXML
-    private TableColumn decisionTC;
+    private TableColumn<Review, String> decisionTC;
     @javafx.fxml.FXML
     private DatePicker toDP;
     @javafx.fxml.FXML
-    private TableView TableViewTV;
+    private TableView<Review> TableViewTV;
     @javafx.fxml.FXML
     private TableColumn applicationIDTC;
     @javafx.fxml.FXML

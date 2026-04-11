@@ -1,8 +1,10 @@
 package com.example.group_project.WelfareOfficer.Model;
 
+import java.io.Serializable;
 import java.time.LocalDate;
 
-public class WelfareApplication {
+public class WelfareApplication implements Serializable {
+
     private int applicationID;
     private String employeeName;
     private String applicationType;
@@ -15,7 +17,10 @@ public class WelfareApplication {
     public WelfareApplication() {
     }
 
-    public WelfareApplication(int applicationID, String employeeName, String applicationType, String description, int requestedAmount, LocalDate submissionDate, String status, String rejectionReason) {
+    public WelfareApplication(int applicationID, String employeeName, String applicationType,
+                              String description, int requestedAmount,
+                              LocalDate submissionDate, String status, String rejectionReason) {
+
         this.applicationID = applicationID;
         this.employeeName = employeeName;
         this.applicationType = applicationType;
@@ -38,40 +43,16 @@ public class WelfareApplication {
         return employeeName;
     }
 
-    public void setEmployeeName(String employeeName) {
-        this.employeeName = employeeName;
-    }
-
     public String getApplicationType() {
         return applicationType;
-    }
-
-    public void setApplicationType(String applicationType) {
-        this.applicationType = applicationType;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
     }
 
     public int getRequestedAmount() {
         return requestedAmount;
     }
 
-    public void setRequestedAmount(int requestedAmount) {
-        this.requestedAmount = requestedAmount;
-    }
-
     public LocalDate getSubmissionDate() {
         return submissionDate;
-    }
-
-    public void setSubmissionDate(LocalDate submissionDate) {
-        this.submissionDate = submissionDate;
     }
 
     public String getStatus() {

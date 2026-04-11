@@ -1,5 +1,6 @@
 package com.example.group_project.WelfareOfficer.Controller;
 
+import com.example.group_project.WelfareOfficer.Model.Review;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
@@ -15,16 +16,17 @@ public class AddReviewController
     @javafx.fxml.FXML
     private TextArea remarksTA;
     @javafx.fxml.FXML
-    private ComboBox designCB;
-    @javafx.fxml.FXML
     private TextField applicationIDTF;
     @javafx.fxml.FXML
     private Label addReviewLabel;
     @javafx.fxml.FXML
     private AnchorPane mainPane;
+    @javafx.fxml.FXML
+    private ComboBox<String> desicionCB;
 
     @javafx.fxml.FXML
     public void initialize() {
+        desicionCB.getItems().setAll("Approve", "Reject");
     }
 
     @javafx.fxml.FXML

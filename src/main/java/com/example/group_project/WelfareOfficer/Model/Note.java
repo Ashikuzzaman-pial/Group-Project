@@ -1,6 +1,8 @@
 package com.example.group_project.WelfareOfficer.Model;
 
-public class Note {
+import java.io.Serializable;
+
+public class Note implements Serializable {
     private int id;
     private WelfareApplication application;
     private String content;

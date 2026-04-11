@@ -24,7 +24,6 @@ public class UpdateReviewController
     @javafx.fxml.FXML
     public void initialize() {
         decisionCB.getItems().addAll("Approved", "Rejected", "Pending");
-
     }
 
     @javafx.fxml.FXML

@@ -1,31 +1,35 @@
 package com.example.group_project.WelfareOfficer.Controller;
 
+import com.example.group_project.WelfareOfficer.Model.WelfareApplication;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.control.*;
+import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.layout.AnchorPane;
+
+import java.time.LocalDate;
 
 public class UpdateApplicationStatusController
 {
     @javafx.fxml.FXML
-    private TableView tableViewTV;
+    private TableView<WelfareApplication> tableViewTV;
     @javafx.fxml.FXML
-    private TableColumn employeeNameTC;
+    private TableColumn<WelfareApplication, String> employeeNameTC;
     @javafx.fxml.FXML
-    private TableColumn statusTC;
+    private TableColumn<WelfareApplication, String> statusTC;
     @javafx.fxml.FXML
-    private TableColumn applicationIDTC;
+    private TableColumn<WelfareApplication, Integer> applicationIDTC;
     @javafx.fxml.FXML
     private Label updateApplicationStatusLabel;
     @javafx.fxml.FXML
     private AnchorPane mainPane;
     @javafx.fxml.FXML
-    private TableColumn programTC;
+    private TableColumn<WelfareApplication, String> programTC;
     @javafx.fxml.FXML
-    private ComboBox StatusCB;
+    private ComboBox<String> StatusCB;
     @javafx.fxml.FXML
-    private TableColumn submissionDateTC;
+    private TableColumn<WelfareApplication, LocalDate> submissionDateTC;
     @javafx.fxml.FXML
     private Label selectApplicationLabel;
     @javafx.fxml.FXML
@@ -33,6 +37,14 @@ public class UpdateApplicationStatusController
 
     @javafx.fxml.FXML
     public void initialize() {
+
+        StatusCB.getItems().addAll("Pending", "Approved", "Rejected");
+
+        employeeNameTC.setCellValueFactory(new PropertyValueFactory<>("employeeName"));
+        statusTC.setCellValueFactory(new PropertyValueFactory<>("status"));
+        applicationIDTC.setCellValueFactory(new PropertyValueFactory<>("applicationID"));
+        programTC.setCellValueFactory(new PropertyValueFactory<>("applicationType"));
+        submissionDateTC.setCellValueFactory(new PropertyValueFactory<>("submissionDate"));
     }
 
     @javafx.fxml.FXML

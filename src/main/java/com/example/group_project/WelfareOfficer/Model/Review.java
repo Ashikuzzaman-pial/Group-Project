@@ -2,7 +2,9 @@ package com.example.group_project.WelfareOfficer.Model;
 
 import com.example.group_project.User;
 
-public class Review {
+import java.io.Serializable;
+
+public class Review implements Serializable {
     private int id;
     private User officer;
     private WelfareApplication application;

@@ -11,7 +11,7 @@ public class SendNoteController
     @javafx.fxml.FXML
     private Label sendNoteLabel;
     @javafx.fxml.FXML
-    private ComboBox selectApplicationCB;
+    private ComboBox<String> selectApplicationCB;
     @javafx.fxml.FXML
     private TextArea messageTA;
     @javafx.fxml.FXML
